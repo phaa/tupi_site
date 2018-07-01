@@ -77,7 +77,7 @@
                 </div>
             @endif
 
-            <div class="content">
+            <div class="content jumbotron">
                 <div class="title m-b-md">
                     Laravel
                 </div>
@@ -90,6 +90,8 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
             </div>
+            <br>
+
         </div>
     </body>
 </html>

@@ -12,5 +12,37 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
+});
+
+Route::get('/inicio', function () {
+    return view('index');
+});
+
+Route::get('/sobre', function () {
+    return view('about');
+});
+
+Route::get('/detalhes', function () {
+    return view('blog-detail');
+});
+
+Route::get('/blog', function () {
+    return view('blog');
+});
+
+Route::get('/contato', function () {
+    return view('contact');
+});
+
+Route::get('/galeria', function () {
+    return view('gallery');
+});
+
+Route::get('/cardapio', function () {
+    return view('menu');
+});
+
+Route::get('/reservas', function () {
+    return view('reservation');
 });
