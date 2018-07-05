@@ -659,7 +659,7 @@
 								“ We are lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tellus sem, mattis in pre-tium nec, fermentum viverra dui ”
 							</p>
 
-							<div class="star-review fs-18 color0 flex-c-m m-t-12">
+							<div class="star-review fs-18 color-yellow flex-c-m m-t-12">
 								<i class="fa fa-star" aria-hidden="true"></i>
 								<i class="fa fa-star p-l-1" aria-hidden="true"></i>
 								<i class="fa fa-star p-l-1" aria-hidden="true"></i>
@@ -687,7 +687,7 @@
 								“ We are lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tellus sem, mattis in pre-tium nec, fermentum viverra dui ”
 							</p>
 
-							<div class="star-review fs-18 color0 flex-c-m m-t-12">
+							<div class="star-review fs-18 color-yellow flex-c-m m-t-12">
 								<i class="fa fa-star" aria-hidden="true"></i>
 								<i class="fa fa-star p-l-1" aria-hidden="true"></i>
 								<i class="fa fa-star p-l-1" aria-hidden="true"></i>
@@ -715,7 +715,7 @@
 								“ We are lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tellus sem, mattis in pre-tium nec, fermentum viverra dui ”
 							</p>
 
-							<div class="star-review fs-18 color0 flex-c-m m-t-12">
+							<div class="star-review fs-18 color-yellow flex-c-m m-t-12">
 								<i class="fa fa-star" aria-hidden="true"></i>
 								<i class="fa fa-star p-l-1" aria-hidden="true"></i>
 								<i class="fa fa-star p-l-1" aria-hidden="true"></i>
@@ -882,4 +882,4 @@
 	</div>
 </div>
 
-@stop
+@endsection

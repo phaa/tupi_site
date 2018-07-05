@@ -21,8 +21,11 @@
 		<!-- Back to top -->
 		@include('snippets/back-to-top')
 
-		<!-- Jacascript files -->
+		<!-- Javascript files -->
 		@include('snippets/script-files')
+
+		<!-- Additional Scripts-->
+		@yield('additional_scripts')
 
 	</body>
 </html>

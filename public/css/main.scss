@@ -3,7 +3,7 @@ $red2: #d41b22;
 $success: #43A906;
 $gray6: #666666;
 $white: #fff;
-$brown: #644425;
+$brown: #7B4A12;
 
 //old brown: 563715
 
@@ -268,8 +268,8 @@ iframe {
   height: 40px;
   bottom: 40px;
   right: 40px;
-  background-color: black;
-  opacity: 0.5;
+  background-color: $success;
+  opacity: 1;
   justify-content: center;
   align-items: center;
   z-index: 1000;
@@ -289,6 +289,7 @@ iframe {
 .btn-back-to-top:hover {
   opacity: 1;
   cursor: pointer;
+  background-color: $brown;
 }
 
 @media (max-width: 576px) {

@@ -6,19 +6,19 @@
     <!-- - -->
     <ul class="menu-sidebar p-t-95 p-b-70">
         <li class="t-center m-b-13">
-            <a href="" class="txt19">Inicio</a>
+            <a href="inicio" class="txt19">Início</a>
+        </li>
+        
+        <li class="t-center m-b-13">
+            <a href="cardapio" class="txt19">Cardápio</a>
         </li>
 
         <li class="t-center m-b-13">
-            <a href="menu" class="txt19">Cardápio</a>
+            <a href="galeria" class="txt19">Galeria</a>
         </li>
 
         <li class="t-center m-b-13">
-            <a href="gallery" class="txt19">Gallery</a>
-        </li>
-
-        <li class="t-center m-b-13">
-            <a href="about" class="txt19">About</a>
+            <a href="sobre" class="txt19">Sobre</a>
         </li>
 
         <li class="t-center m-b-13">
@@ -26,13 +26,13 @@
         </li>
 
         <li class="t-center m-b-33">
-            <a href="contact" class="txt19">Contact</a>
+            <a href="contato" class="txt19">Contato</a>
         </li>
 
         <li class="t-center">
             <!-- Button3 -->
-            <a href="reservation" class="btn3 flex-c-m size13 txt11 trans-0-4 m-l-r-auto">
-                Reservation
+            <a href="reservas" class="btn3 flex-c-m size13 txt11 trans-0-4 m-l-r-auto">
+                Reservas
             </a>
         </li>
     </ul>
