@@ -1,6 +1,12 @@
 /*[ FONT SIZE ]
 ///////////////////////////////////////////////////////////
 */
+$red : #d61c22;
+$red2 : #ec1d25;
+$success: #43A906;
+$gray6: #666666;
+$white: #fff;
+$brown: #644425;
 
 .fs-1 {
   font-size: 1px;
@@ -9818,7 +9824,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   font-family: Courgette;
   font-size: 30px;
   line-height: 1.2;
-  color: #d61c22;
+  color: $success;
 }
 
 .tit3 {
@@ -9930,7 +9936,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   font-weight: 400;
   font-size: 12px;
   line-height: 1.1;
-  color: #ec1d25;
+  color: $success;
   text-transform: uppercase;
 }
 
@@ -9965,7 +9971,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   font-family: Montserrat;
   font-weight: 700;
   font-size: 50px;
-  color: #ec1d25;
+  color: $success;
   line-height: 1.1;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -10033,7 +10039,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   font-family: Montserrat;
   font-weight: 400;
   font-size: 13px;
-  color: #ec1d25;
+  color: $success;
   line-height: 1.7;
 }
 
@@ -10108,7 +10114,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   font-weight: 400;
   font-size: 15px;
   line-height: 1.7;
-  color: #ec1d25;
+  color: $success;
 }
 
 .txt25 {
@@ -10216,7 +10222,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 */
 
 .color0 {
-  color: #ec1d25;
+  color: $success;
 }
 
 .color1 {
@@ -10232,7 +10238,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 }
 
 .color0-hov:hover {
-  color: #ec1d25;
+  color: $success;
 }
 
 /*=========================================================
@@ -10432,7 +10438,7 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 */
 
 .bg0 {
-  background-color: #ec1d25;
+  background-color: $success;
 }
 
 .bg1 {
@@ -10444,7 +10450,7 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 }
 
 .bg0-hov:hover {
-  background-color: #ec1d25;
+  background-color: $success;
 }
 
 .bg1-overlay {
@@ -10464,7 +10470,7 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 }
 
 .bo4 {
-  border: 4px solid #ec1d25;
+  border: 4px solid $success;
 }
 
 .bo5-b {
@@ -10652,7 +10658,7 @@ EFFECT   EFFECT   EFFECT   EFFECT   EFFECT   EFFECT  EFFECT
 }
 
 /*=========================================================
-RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE   RESPONSIVE 
+RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE   RESPONSIVE
 =========================================================*/
 
 /*[ XL ]
@@ -10747,4 +10753,4 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE   RESPONSIVE
     -ms-align-items: center;
     align-items: center;
   }
-} 
+}

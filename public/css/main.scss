@@ -1,48 +1,11 @@
-
-/*------------------------------------------------------------------
-Project:  Pato
-Version:
-Last change:
-Assigned to:  Kevin Nguyen
-Primary use:  Company
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[LAYOUT]
-
-* body
-  + Header / header
-  + Page Content / .page-content .name-page
-        + Section Layouts / section .name-section
-        ...
-  + Footer / footer
-
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[COLOR CODES]
-
-# Text Color      :
-# Primary Color 01:
-# Primary Color 02:
-# Primary Color 03:
-
-------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[TYPOGRAPHY]
-
-Body            : 16px/1.6 '', Arial, sans-serif;
-Title           : 18px/1.6 '', Arial, sans-serif;
-Paragrap        : 18px/1.6 '', Arial, sans-serif;
-Input, textarea : 14px/1.6 '', Arial, sans-serif;
--------------------------------------------------------------------*/
-
-/*[ FONT ]
-///////////////////////////////////////////////////////////
-*/
-
 $red: #ec1d25;
+$red2: #d41b22;
 $success: #43A906;
 $gray6: #666666;
 $white: #fff;
+$brown: #644425;
+
+//old brown: 563715
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
@@ -163,6 +126,8 @@ ul, li {
 input {
   outline: none;
   border: none !important;
+  transition: all .4s ease;
+  webkit-transition: all .3s ease; /* Safari */
 }
 
 textarea {
@@ -566,7 +531,7 @@ input[type="date" i] {
     margin-right: 10px;
     > a {
       font-family: Montserrat;
-      font-weight: 400;
+      font-weight: 600;
       font-size: 14px;
       text-transform: uppercase;
       color: white;
@@ -905,12 +870,12 @@ input[type="date" i] {
       transition: all 0.4s;
       &:hover {
         border: 3px solid white;
-        background-color: #d41b22;
+        background-color: $success;
       }
     }
     &.slick-active button {
       border: 3px solid white;
-      background-color: #d41b22;
+      background-color: $success;
     }
   }
 }
@@ -1048,13 +1013,13 @@ input[type="date" i] {
       -moz-transition: all 0.4s;
       transition: all 0.4s;
       &:hover {
-        border: 1px solid #d41b22;
-        background-color: #d41b22;
+        border: 1px solid $success;
+        background-color: $success;
       }
     }
     &.slick-active button {
-      border: 1px solid #d41b22;
-      background-color: #d41b22;
+      border: 1px solid $success;
+      background-color: $success;
     }
   }
 }
@@ -1113,13 +1078,13 @@ input[type="date" i] {
       -moz-transition: all 0.4s;
       transition: all 0.4s;
       &:hover {
-        border: 1px solid #d41b22;
-        background-color: #d41b22;
+        border: 1px solid $success;
+        background-color: $success;
       }
     }
     &.slick-active button {
-      border: 1px solid #d41b22;
-      background-color: #d41b22;
+      border: 1px solid $success;
+      background-color: $success;
     }
   }
 }
