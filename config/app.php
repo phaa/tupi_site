@@ -154,11 +154,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        tupi_site\Providers\AppServiceProvider::class,
+        tupi_site\Providers\AuthServiceProvider::class,
+        // tupi_site\Providers\BroadcastServiceProvider::class,
+        tupi_site\Providers\EventServiceProvider::class,
+        tupi_site\Providers\RouteServiceProvider::class,
 
     ],
 

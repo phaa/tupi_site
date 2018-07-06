@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace tupi_site\Providers;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -14,7 +14,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    protected $namespace = 'App\Http\Controllers';
+    protected $namespace = 'tupi_site\Http\Controllers';
 
     /**
      * Define your route model bindings, pattern filters, etc.

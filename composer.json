@@ -23,7 +23,7 @@
             "database/factories"
         ],
         "psr-4": {
-            "App\\": "app/"
+            "tupi_site\\": "app/"
         }
     },
     "autoload-dev": {
