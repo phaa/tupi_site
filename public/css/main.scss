@@ -268,7 +268,7 @@ iframe {
   height: 40px;
   bottom: 40px;
   right: 40px;
-  background-color: $success;
+  background-color: $brown;
   opacity: 1;
   justify-content: center;
   align-items: center;
@@ -289,7 +289,7 @@ iframe {
 .btn-back-to-top:hover {
   opacity: 1;
   cursor: pointer;
-  background-color: $brown;
+  background-color: $success;
 }
 
 @media (max-width: 576px) {
@@ -473,7 +473,7 @@ input[type="date" i] {
 .header-fixed .wrap-menu-header {
   position: fixed;
   height: 100px;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.94);
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -530,6 +530,12 @@ input[type="date" i] {
     padding-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    border-bottom: 1px solid transparent;
+    transition: all 0.4s ease;
+    &.active_link, &:hover {
+        border-bottom: 1px solid $success;
+        box-shadow: 0 2px 0 0 $success;
+    }
     > a {
       font-family: Montserrat;
       font-weight: 600;
@@ -546,7 +552,6 @@ input[type="date" i] {
 }
 
 .main_menu > li:hover > a {
-  color: $success;
   text-decoration: none;
 }
 

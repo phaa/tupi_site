@@ -15,32 +15,36 @@
                 <div class="wrap_menu p-l-45 p-l-0-xl">
                     <nav class="menu">
                         <ul class="main_menu">
-                            <li>
+                            @php
+                                $currentPath = basename(request()->path());
+                                $active = "active_link";
+                            @endphp
+                            <li class="{{ ($currentPath ==  'inicio' || $currentPath == '/') ? $active : '' }}">
                                 <a href="inicio">Início</a>
                             </li>
 
-                            <li>
-                                <a href="cardapio">Cardápio</a>
+                            <li class="{{ $currentPath ==  'cardapio' ? $active : '' }}">
+                                <a href="cardapio" class="">Cardápio</a>
                             </li>
 
-                            <li>
-                                <a href="reservas">Reservas</a>
+                            <li class="{{ $currentPath ==  'reservas' ? $active : '' }}">
+                                <a href="reservas" class="">Reservas</a>
                             </li>
 
-                            <li>
-                                <a href="galeria">Galeria</a>
+                            <li class="{{ $currentPath ==  'galeria' ? $active : '' }}">
+                                <a href="galeria" class="">Galeria</a>
                             </li>
 
-                            <li>
-                                <a href="sobre">Sobre</a>
+                            <li class="{{ $currentPath ==  'sobre' ? $active : '' }}">
+                                <a href="sobre" class="">Sobre</a>
                             </li>
 
-                            <li>
-                                <a href="blog">Blog</a>
+                            <li class="{{ $currentPath ==  'blog' ? $active : '' }}">
+                                <a href="blog" class="">Blog</a>
                             </li>
 
-                            <li>
-                                <a href="contato">Contato</a>
+                            <li class="{{ $currentPath ==  'contato' ? $active : '' }}">
+                                <a href="contato" class="">Contato</a>
                             </li>
                         </ul>
                     </nav>
