@@ -20,31 +20,31 @@
                                 $active = "active_link";
                             @endphp
                             <li class="{{ ($currentPath ==  'inicio' || $currentPath == '/') ? $active : '' }}">
-                                <a href="inicio">Início</a>
+                                <a href="{{ route('index') }}">Início</a>
                             </li>
 
                             <li class="{{ $currentPath ==  'cardapio' ? $active : '' }}">
-                                <a href="cardapio" class="">Cardápio</a>
+                                <a href="{{ route('cardapio') }}" class="">Cardápio</a>
                             </li>
 
                             <li class="{{ $currentPath ==  'reservas' ? $active : '' }}">
-                                <a href="reservas" class="">Reservas</a>
+                                <a href="{{ route('reservas') }}" class="">Reservas</a>
                             </li>
 
                             <li class="{{ $currentPath ==  'galeria' ? $active : '' }}">
-                                <a href="galeria" class="">Galeria</a>
+                                <a href="{{ route('galeria') }}" class="">Galeria</a>
                             </li>
 
                             <li class="{{ $currentPath ==  'sobre' ? $active : '' }}">
-                                <a href="sobre" class="">Sobre</a>
+                                <a href="{{ route('sobre') }}" class="">Sobre</a>
                             </li>
 
                             <li class="{{ $currentPath ==  'blog' ? $active : '' }}">
-                                <a href="blog" class="">Blog</a>
+                                <a href="{{ route('blog') }}" class="">Blog</a>
                             </li>
 
                             <li class="{{ $currentPath ==  'contato' ? $active : '' }}">
-                                <a href="contato" class="">Contato</a>
+                                <a href="{{ route('contato') }}" class="">Contato</a>
                             </li>
                         </ul>
                     </nav>

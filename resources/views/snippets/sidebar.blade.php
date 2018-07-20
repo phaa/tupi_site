@@ -8,7 +8,7 @@
         <li class="t-center m-b-13">
             <a href="inicio" class="txt19">Início</a>
         </li>
-        
+
         <li class="t-center m-b-13">
             <a href="cardapio" class="txt19">Cardápio</a>
         </li>
