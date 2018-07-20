@@ -5,6 +5,8 @@ $gray6: #666666;
 $white: #fff;
 $brown: #7B4A12;
 
+$another-red: #cf2227;
+
 //old brown: 563715
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
@@ -62,6 +64,11 @@ $brown: #7B4A12;
   src: url('../fonts/notosans/NotoSans-Regular.ttf');
 }
 
+@font-face {
+  font-family: Old-Emma;
+  src: url('../fonts/old-emma/Old-Emma.ttf');
+}
+
 
 /*[ RESTYLE TAG ]
 ///////////////////////////////////////////////////////////
@@ -75,14 +82,14 @@ $brown: #7B4A12;
 
 body, html {
   height: 100%;
-  font-family: Poppins, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-weight: 400;
 }
 
 /* ------------------------------------ */
 
 a {
-  font-family: Poppins;
+  font-family: Montserrat;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.7;
@@ -108,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  font-family: Poppins;
+  font-family: Montserrat;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.7;
@@ -314,7 +321,7 @@ input[type="date" i] {
 .table-condensed {
   td, th {
     font-size: 14px;
-    font-family: Poppins;
+    font-family: Montserrat;
     font-weight: 400;
   }
 }
@@ -383,7 +390,7 @@ input[type="date" i] {
 
 .select2-selection__rendered {
   font-size: 14px;
-  font-family: Poppins;
+  font-family: Montserrat;
   font-weight: 400;
   color: $gray6 !important;
   padding-left: 20px !important;
@@ -421,7 +428,7 @@ input[type="date" i] {
 
 .select2-results__options {
   font-size: 14px;
-  font-family: Poppins;
+  font-family: Montserrat;
   font-weight: 400;
   color: $gray6 !important;
 }
@@ -429,7 +436,7 @@ input[type="date" i] {
 .select2-search--dropdown .select2-search__field {
   border: 1px solid #aaa !important;
   outline: none;
-  font-family: Poppins;
+  font-family: Montserrat;
   font-weight: 400;
   font-size: 14px;
   color: $gray6;
@@ -482,7 +489,7 @@ input[type="date" i] {
 */
 
 .logo {
-  height: 50px;
+  height: 60px;
   > a {
     display: block;
     height: 100%;
@@ -530,16 +537,16 @@ input[type="date" i] {
     padding-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    border-bottom: 1px solid transparent;
+    border-bottom: 3px solid transparent;
     transition: all 0.4s ease;
     &.active_link, &:hover {
-        border-bottom: 1px solid $success;
-        box-shadow: 0 2px 0 0 $success;
+        border-bottom: 3px solid $success;
+        //box-shadow: 0 2px 0 0 $success;
     }
     > a {
-      font-family: Poppins;
+      font-family: Old-Emma;
       font-weight: 600;
-      font-size: 14px;
+      font-size: 18px;
       text-transform: uppercase;
       color: white;
       padding: 15px;
@@ -603,14 +610,14 @@ input[type="date" i] {
     -o-transition: all 0.3s;
     -moz-transition: all 0.3s;
     padding: 10px;
-    font-family: Poppins;
+    font-family: Montserrat;
     font-weight: 400;
     font-size: 14px;
     color: #808080;
   }
   a {
     padding: 10px;
-    font-family: Poppins;
+    font-family: Montserrat;
     font-weight: 400;
     font-size: 14px;
     color: #808080;
@@ -626,7 +633,7 @@ input[type="date" i] {
 */
 
 .social a {
-  font-size: 15px;
+  font-size: 18px;
   color: white;
 }
 
@@ -1121,7 +1128,7 @@ input[type="date" i] {
 /* ------------------------------------ */
 
 .effect1 {
-  background-color: #cf2227;
+  background-color: #7B4A12;
   opacity: 0.9;
   position: relative;
   .txt-effect1 {
@@ -1298,7 +1305,7 @@ body {
   bottom: 11px;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 3px 15px;
-  font-family: Poppins;
+  font-family: Montserrat;
   font-weight: 400;
   font-size: 12px;
   color: white;
@@ -1329,7 +1336,7 @@ body {
     transition: all 0.4s;
   }
   &:hover:after {
-    background-color: rgba(236, 29, 37, 0.7);
+    background-color: rgba(123,74,18,0.7);
   }
 }
 
@@ -1425,7 +1432,7 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(236, 29, 37, 0.8);
+  background-color: rgba(123, 74, 18, 0.8);
   opacity: 0;
   &:hover {
     opacity: 1;
@@ -1462,7 +1469,7 @@ body {
 */
 
 .item-pagination {
-  font-family: Poppins;
+  font-family: Montserrat;
   font-weight: 400;
   font-size: 13px;
   color: #808080;

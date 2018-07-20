@@ -1,4 +1,6 @@
 @extends('layout')
+
+@section('title', 'Início')
 <!-- Index blade -->
 @section('page_content')
 

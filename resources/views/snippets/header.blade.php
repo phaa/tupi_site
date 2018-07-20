@@ -7,7 +7,7 @@
                 <!-- Logo -->
                 <div class="logo">
                     <a href="/">
-                        <img src="images/icons/logo.png" alt="IMG-LOGO" data-logofixed="images/icons/logo2.png">
+                        <img src="images/icons/tupi_logo.png" alt="IMG-LOGO" data-logofixed="images/icons/tupi_logo2.png">
                     </a>
                 </div>
 
