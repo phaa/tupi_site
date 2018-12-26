@@ -2,6 +2,7 @@ $red: #ec1d25;
 $red2: #d41b22;
 $success: #43A906;
 $gray6: #666666;
+$gray3: #333;
 $white: #fff;
 $brown: #7B4A12;
 
@@ -69,6 +70,12 @@ $another-red: #cf2227;
   src: url('../fonts/old-emma/Old-Emma.ttf');
 }
 
+@font-face {
+  font-family: Bahiana-Regular;
+  src: url('../fonts/bahiana/Bahiana-Regular.otf');
+}
+
+
 
 /*[ RESTYLE TAG ]
 ///////////////////////////////////////////////////////////
@@ -93,7 +100,7 @@ a {
   font-weight: 400;
   font-size: 15px;
   line-height: 1.7;
-  color: $gray6;
+  color: $gray3;
   margin: 0px;
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
@@ -117,9 +124,10 @@ h1, h2, h3, h4, h5, h6 {
 p {
   font-family: Montserrat;
   font-weight: 400;
+  text-align: justify;
   font-size: 15px;
   line-height: 1.7;
-  color: $gray6;
+  color: $gray3;
   margin: 0px;
 }
 
@@ -275,12 +283,12 @@ iframe {
   height: 40px;
   bottom: 40px;
   right: 40px;
-  background-color: $brown;
-  opacity: 1;
+  background-color: $success;
+  opacity: 0.7;
   justify-content: center;
   align-items: center;
   z-index: 1000;
-  border-radius: 4px;
+  border-radius: 50px;
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -296,7 +304,7 @@ iframe {
 .btn-back-to-top:hover {
   opacity: 1;
   cursor: pointer;
-  background-color: $success;
+  background-color: $brown;
 }
 
 @media (max-width: 576px) {
@@ -480,7 +488,7 @@ input[type="date" i] {
 .header-fixed .wrap-menu-header {
   position: fixed;
   height: 100px;
-  background: rgba(255, 255, 255, 0.94);
+  background: rgba(0, 0, 0, 0.80);
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -555,7 +563,7 @@ input[type="date" i] {
 }
 
 .header-fixed .main_menu > li > a {
-  color: #222222;
+  color: #fff;
 }
 
 .main_menu > li:hover > a {
@@ -638,7 +646,7 @@ input[type="date" i] {
 }
 
 .header-fixed .social a {
-  color: #222222;
+  color: #fff;
 }
 
 .social a:hover {
@@ -653,8 +661,8 @@ input[type="date" i] {
 }
 
 .header-fixed .btn-show-sidebar {
-  border-top: 2px solid #222222;
-  border-bottom: 2px solid #222222;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
 }
 
 .btn-show-sidebar:hover {
@@ -758,6 +766,24 @@ input[type="date" i] {
   }
 }
 
+.link-hover
+{
+    background-image: linear-gradient(transparent, transparent), linear-gradient($success, $success);
+    background-size: 0 3px;
+    background-repeat: no-repeat;
+    background-position: center 33px;
+    transition: all .2s ease-out;
+    z-index: 99;
+    position: relative;
+    text-decoration: none;
+}
+
+.link-hover:hover
+{
+    border-radius: 0px;
+    background-size: 30% 3px;
+}
+
 @media (max-width: 576px) {
   .wrap_header {
     height: 80px;
@@ -820,7 +846,7 @@ input[type="date" i] {
 }
 
 .wrap-slick1:hover .arrow-slick1, .wrap-slick2:hover .arrow-slick2, .wrap-slick3:hover .arrow-slick3 {
-  opacity: 0.5;
+  opacity: 0.75;
 }
 
 .arrow-slick1:hover, .arrow-slick2:hover, .arrow-slick3:hover {

@@ -5,27 +5,27 @@
 
     <!-- - -->
     <ul class="menu-sidebar p-t-95 p-b-70">
-        <li class="t-center m-b-13">
+        <li class="t-center m-b-13 link-hover">
             <a href="inicio" class="txt12">Início</a>
         </li>
 
-        <li class="t-center m-b-13">
+        <li class="t-center m-b-13 link-hover">
             <a href="cardapio" class="txt12">Cardápio</a>
         </li>
 
-        <li class="t-center m-b-13">
+        <li class="t-center m-b-13 link-hover">
             <a href="galeria" class="txt12">Galeria</a>
         </li>
 
-        <li class="t-center m-b-13">
+        <li class="t-center m-b-13 link-hover">
             <a href="sobre" class="txt12">Sobre</a>
         </li>
 
-        <li class="t-center m-b-13">
+        <li class="t-center m-b-13 link-hover">
             <a href="blog" class="txt12">Blog</a>
         </li>
 
-        <li class="t-center m-b-33">
+        <li class="t-center m-b-33 link-hover">
             <a href="contato" class="txt12">Contato</a>
         </li>
 

@@ -7,6 +7,9 @@
 
 require('./bootstrap');
 
+require('animsition');
+require('select2');
+
 /**
 window.Vue = require('vue');
 

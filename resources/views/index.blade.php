@@ -5,36 +5,103 @@
 @section('page_content')
 
 <!-- Carousel -->
-@include('snippets/carousel')
+<section class="section-slide">
+    <div class="wrap-slick1">
+        <div class="slick1">
+            <div class="item-slick1 item1-slick1" style="background-image: url(images/deck.JPG);">
+                <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
+                    <span class="caption1-slide1 txt1 t-center animated visible-false m-b-15" data-appear="fadeInDown">
+                        Bem Vindo ao
+                    </span>
+
+                    <h2 class="caption2-slide1 tit1 t-center animated visible-false m-t-37" data-appear="fadeInUp">
+                        Restaurante Tupi
+                    </h2>
+
+                    <!--<div class="wrap-btn-slide1 animated visible-false" data-appear="zoomIn">
+                         Button1
+                        <a href="menu" class="btn1 flex-c-m size1 txt3 trans-0-4">
+                            Cardápio
+                        </a>
+                    </div>-->
+                </div>
+            </div>
+
+            <div class="item-slick1 item2-slick1" style="background-image: url(images/ambiente.jpg);">
+                <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
+                    <span class="caption1-slide1 txt1 t-center animated visible-false m-b-15" data-appear="rollIn">
+                        Bem Vindo ao
+                    </span>
+
+                    <h2 class="caption2-slide1 tit1 t-center animated visible-false m-t-37" data-appear="lightSpeedIn">
+                        Restaurante Tupi
+                    </h2>
+<!--
+                    <div class="wrap-btn-slide1 animated visible-false" data-appear="slideInUp">
+                        Button1
+                        <a href="menu" class="btn1 flex-c-m size1 txt3 trans-0-4">
+                            Cardápio
+                        </a>
+                    </div>
+                    -->
+                </div>
+            </div>
+
+            <div class="item-slick1 item3-slick1" style="background-image: url(images/planta.jpg);">
+                <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
+                    <span class="caption1-slide1 txt1 t-center animated visible-false m-b-15" data-appear="rotateInDownLeft">
+						Ambiente sossegado. <br>
+						Vista incrível.
+                    </span>
+
+                    <h2 class="caption2-slide1 tit1 t-center animated visible-false m-t-37" data-appear="rotateInUpRight">
+                        Natureza
+                    </h2>
+					<!--
+                    <div class="wrap-btn-slide1 animated visible-false" data-appear="rotateIn">
+                         Button1
+                        <a href="menu" class="btn1 flex-c-m size1 txt3 trans-0-4">
+                            Look Menu
+                        </a>
+                    </div> -->
+                </div>
+            </div>
+
+        </div>
+
+        <div class="wrap-slick1-dots"></div>
+    </div>
+</section>
 
 <!-- Welcome -->
 <section class="section-welcome bg1-pattern p-t-120 p-b-105">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 p-t-45 p-b-30">
+			<div class="col-md-6 p-t-35 p-b-30">
 				<div class="wrap-text-welcome t-center">
 					<span class="tit2 t-center">
-						Italian Restaurant
+						Restaurante Tupi
 					</span>
 
-					<h3 class="tit3 t-center m-b-35 m-t-5">
-						Welcome
+					<h3 class="tit3 t-center m-b-25 m-t-5">
+						Quem somos
 					</h3>
 
-					<p class="t-center m-b-22 size3 m-l-r-auto">
-						Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est. Sed fringilla, nunc sed imperdiet lacinia, nisl ante egestas mi, ac facilisis ligula sem id neque.
+					<p class="m-b-22 size3 m-l-r-auto">
+						&emsp;&emsp;O Tupi foi pensado e criado com o intuito de oferecer aos clientes refeições de boa qualidade aliadas
+						a um ambiente tranquilo e agradável sem abrir mão do preço acessível. A proposta da casa é comer bem e relaxar, o espaço proporciona às
+						famílias momentos de paz e bem-estar em meio à natureza desfrutam de nossos deliciosos preparos.
+						<br>
+						&emsp;&emsp;Oferecemos um cardápio regional com pratos desde a carne de sol na brasa, galinha e paçoca até
+						peixes e camarões, preparados em moquecas ou na brasa, todos servidos em pratos para duas ou quatro pessoas, além dos individuais.
 					</p>
 
-					<a href="about" class="txt4">
-						Our Story
-						<i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
-					</a>
 				</div>
 			</div>
 
-			<div class="col-md-6 p-b-30">
-				<div class="wrap-pic-welcome size2 bo-rad-10 hov-img-zoom m-l-r-auto">
-					<img src="images/our-story-01.jpg" alt="IMG-OUR">
+			<div class="col-md-6 p-b-30 size3">
+				<div class="wrap-pic-welcome bo-rad-10 hov-img-zoom m-l-r-auto">
+					<img src="{{ asset('images/index/maniva.jpg') }}" alt="IMG-OUR">
 				</div>
 			</div>
 		</div>
@@ -43,13 +110,13 @@
 
 <!-- Intro -->
 <section class="section-intro">
-	<div class="header-intro parallax100 t-center p-t-135 p-b-158" style="background-image: url(images/bg-intro-01.jpg);">
-		<span class="tit2 p-l-15 p-r-15">
-			Discover
+	<div class="header-intro parallax100 t-center p-t-135 p-b-158" style="background-image: url({{ asset('images/index/panorama.jpg') }});">
+		<span class="tit2 p-l-15 p-r-15" style="font-weight: 600;">
+			Visão privilegiada
 		</span>
 
 		<h3 class="tit4 t-center p-l-15 p-r-15 p-t-3">
-			Pato Place
+			Mata atlântica
 		</h3>
 	</div>
 
@@ -65,7 +132,7 @@
 
 						<div class="wrap-text-blo1 p-t-35">
 							<a href="#"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
-								Romantic Restaurant
+								Salão Principal
 							</h4></a>
 
 							<p class="m-b-20">
@@ -89,7 +156,7 @@
 
 						<div class="wrap-text-blo1 p-t-35">
 							<a href="#"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
-								Delicious Food
+								Playground Infantil
 							</h4></a>
 
 							<p class="m-b-20">
@@ -113,7 +180,7 @@
 
 						<div class="wrap-text-blo1 p-t-35">
 							<a href="#"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
-								Red Wines You Love
+								Redário
 							</h4></a>
 
 							<p class="m-b-20">

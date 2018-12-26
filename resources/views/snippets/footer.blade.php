@@ -3,40 +3,40 @@
     <div class="container p-t-40 p-b-70">
         <div class="row">
             <div class="col-sm-6 col-md-4 p-t-50">
-                <!-- - -->
+                <!-- Contato -->
                 <h4 class="txt13 m-b-33">
-                    Contact Us
+                    Entre com contato!
                 </h4>
 
                 <ul class="m-b-70">
                     <li class="txt14 m-b-14">
                         <i class="fa fa-map-marker fs-16 dis-inline-block size19" aria-hidden="true"></i>
-                        8th floor, 379 Hudson St, New York, NY 10018
+                        BR 101, KM 157, Goianinha/RN
                     </li>
 
                     <li class="txt14 m-b-14">
                         <i class="fa fa-phone fs-16 dis-inline-block size19" aria-hidden="true"></i>
-                        (+1) 96 716 6879
+                        (84) 9 9449-4411
                     </li>
 
                     <li class="txt14 m-b-14">
                         <i class="fa fa-envelope fs-13 dis-inline-block size19" aria-hidden="true"></i>
-                        contact@site.com
+                        restaurantetupi@hotmail.com
                     </li>
                 </ul>
 
-                <!-- - -->
+                <!-- Horários -->
                 <h4 class="txt13 m-b-32">
-                    Opening Times
+                    Nossos horários
                 </h4>
 
                 <ul>
                     <li class="txt14">
-                        09:30 AM – 11:00 PM
+                        Terça a Domingo
                     </li>
 
                     <li class="txt14">
-                        Every Day
+                        11:00 às 16:00
                     </li>
                 </ul>
             </div>
@@ -44,21 +44,21 @@
             <div class="col-sm-6 col-md-4 p-t-50">
                 <!-- - -->
                 <h4 class="txt13 m-b-33">
-                    Latest twitter
+                    Últimas do Instagram
                 </h4>
 
                 <div class="m-b-25">
                     <span class="fs-13 color2 m-r-5">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
                     </span>
                     <a href="#" class="txt15">
-                        @colorlib
+                        @restaurantetupi
                     </a>
 
                     <p class="txt14 m-b-18">
                         Activello is a good option. It has a slider built into that displays the featured image in the slider.
                         <a href="#" class="txt15">
-                            https://buff.ly/2zaSfAQ
+                            https://instagram.com/algumlinkdepostagem
                         </a>
                     </p>
 
@@ -69,16 +69,16 @@
 
                 <div>
                     <span class="fs-13 color2 m-r-5">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
                     </span>
                     <a href="#" class="txt15">
-                        @colorlib
+                        @restaurantetupi
                     </a>
 
                     <p class="txt14 m-b-18">
                         Activello is a good option. It has a slider built into that displays
                         <a href="#" class="txt15">
-                            https://buff.ly/2zaSfAQ
+                            https://instagram.com/algumlinkdepostagem
                         </a>
                     </p>
 

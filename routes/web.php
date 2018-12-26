@@ -4,20 +4,25 @@ use Illuminate\Http\Request;
 
 Route::view('/', 'index')->name('index');
 
-Route::get('/inicio', function ()
+Route::get('/cardapio', function ()
 {
-    return redirect()->route('index');
-});
+    return view('menu');
+})->name('menu');
+
+Route::get('/cardapio', function ()
+{
+    return view('menu');
+})->name('menu');
 
 Route::get('/sobre', function ()
 {
     return view('about');
-})->name('sobre');
+})->name('about');
 
 Route::get('/detalhes', function ()
 {
     return view('blog-detail');
-})->name('detalhes');
+})->name('details');
 
 Route::get('/blog', function ()
 {
@@ -27,22 +32,17 @@ Route::get('/blog', function ()
 Route::get('/contato', function ()
 {
     return view('contact');
-})->name('contato');
+})->name('contact');
 
 Route::get('/galeria', function ()
 {
     return view('gallery');
-})->name('galeria');
-
-Route::get('/cardapio', function ()
-{
-    return view('menu');
-})->name('cardapio');
+})->name('gallery');
 
 Route::get('/reservas', function ()
 {
     return view('reservation');
-})->name('reservas');
+})->name('reservation');
 
 
 //Rotas administrativas

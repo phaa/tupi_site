@@ -4,7 +4,7 @@
 $red : #d61c22;
 $red2 : #ec1d25;
 $success: #43A906;
-$gray6: #666666;
+$gray6: #333;
 $white: #fff;
 $brown: #644425;
 
@@ -9818,12 +9818,14 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   text-transform: uppercase;
   letter-spacing: 10px;
   word-spacing: 10px;
+  letter-spacing: 0.2em;
 }
 
 .tit2 {
-  font-family: Courgette;
+  font-family: Old-Emma;
   font-size: 30px;
   line-height: 1.2;
+  letter-spacing: 0.2em;
   color: $success;
 }
 
@@ -9916,7 +9918,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 
 .txt1 {
   font-family: Old-Emma;
-  font-size: 60px;
+  font-size: 40px;
   line-height: 1.1;
   color: white;
 }
@@ -9943,7 +9945,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 .txt4 {
   font-family: Old-Emma;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 20px;
   color: #222222;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -9997,7 +9999,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   font-family: Old-Emma;
   font-weight: 400;
   font-size: 14px;
-  color: #666666;
+  color: #333;
 }
 
 .txt11 {
@@ -10013,8 +10015,8 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 .txt12 {
   font-family: Old-Emma;
   font-weight: 400;
-  font-size: 18px;
-  color: #666666;
+  font-size: 20px;
+  color: #333;
   line-height: 1.7;
 }
 
@@ -10076,7 +10078,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 .txt20 {
   font-family: Old-Emma;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
   color: #222222;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -10105,7 +10107,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   font-family: Old-Emma;
   font-weight: 400;
   font-size: 13px;
-  color: #666666;
+  color: #333;
   line-height: 1.7;
 }
 
@@ -10212,8 +10214,16 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   font-family: Old-Emma;
   font-weight: 400;
   font-size: 12px;
-  color: #666666;
+  color: #333;
   text-transform: uppercase;
+  line-height: 1.8;
+}
+
+.txt36 {
+  font-family: Old-Emma;
+  font-weight: 400;
+  font-size: 25px;
+  color: #fff;
   line-height: 1.8;
 }
 
@@ -10608,10 +10618,10 @@ EFFECT   EFFECT   EFFECT   EFFECT   EFFECT   EFFECT  EFFECT
 */
 
 .gradient1 {
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
-  background: -moz-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+  background: -moz-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
 }
 
 /*[ Background pattern ]
@@ -10619,8 +10629,7 @@ EFFECT   EFFECT   EFFECT   EFFECT   EFFECT   EFFECT  EFFECT
 */
 
 .bg1-pattern {
-  background-image: url(../images/icons/pattern1.png);
-  background-repeat: repeat;
+  background-image: url(../images/textures/sackcloth-texture.jpg);
 }
 
 .bg2-pattern {
