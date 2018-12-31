@@ -44,7 +44,7 @@
             Galeria
         </h4>
 
-        <!-- Gallery -->
+        <!-- Gallery
         <div class="wrap-gallery-sidebar flex-w">
             <a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-01.jpg" data-lightbox="gallery-footer">
                 <img src="images/photo-gallery-thumb-01.jpg" alt="GALERIA">
@@ -82,5 +82,6 @@
                 <img src="images/photo-gallery-thumb-11.jpg" alt="GALERIA">
             </a>
         </div>
+        -->
     </div>
 </aside>

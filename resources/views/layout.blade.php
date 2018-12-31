@@ -16,7 +16,7 @@
 		<link rel="stylesheet" type="text/css" href="{{ asset('fonts/themify/themify-icons.css') }}">
 
 	</head>
-	<body class="animsition">
+	<body class="">
 		<!-- Header -->
 		@include('snippets/header')
 

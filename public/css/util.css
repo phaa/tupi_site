@@ -7522,8 +7522,8 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 
 .tit10 {
   font-family: Old-Emma;
-  font-weight: 500;
-  font-size: 24px;
+  font-weight: 600;
+  font-size: 26px;
   line-height: 1.2;
   color: #222222;
   text-transform: uppercase;
@@ -7565,8 +7565,8 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 
 .txt5 {
   font-family: Old-Emma;
-  font-weight: 500;
-  font-size: 22px;
+  font-weight: 600;
+  font-size: 24px;
   color: #333333;
   text-transform: uppercase;
   letter-spacing: 3px; }
@@ -7683,8 +7683,8 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 .txt21 {
   font-family: Old-Emma;
   font-weight: 300;
-  font-size: 18px;
-  color: #333333;
+  font-size: 20px;
+  color: #222222;
   line-height: 1.4;
   text-transform: uppercase;
   letter-spacing: 2px; }
@@ -7700,9 +7700,10 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 .txt23 {
   font-family: Old-Emma;
   font-weight: 400;
-  font-size: 13px;
-  color: #333;
-  line-height: 1.7; }
+  font-size: 15px;
+  color: #222222;
+  line-height: 1.7;
+  letter-spacing: 1.3px; }
 
 .txt24 {
   font-family: Old-Emma;
@@ -8021,7 +8022,7 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
   border: 2px solid #e6e6e6; }
 
 .bo8 {
-  border: 5px solid white; }
+  border: 5px solid #222; }
 
 /* ------------------------------------ */
 .bo-rad-2 {
