@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('templates.layout')
 
 <!-- Menu -->
 @section('page_content')
@@ -124,7 +124,7 @@
 	</div>
 
 	<!-- Sign up -->
-	@include('snippets/sign-up')
+	@include('components/sign-up')
 
 @endsection
 

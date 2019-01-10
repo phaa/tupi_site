@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('templates.layout')
 
 @section('page_content')
 	<!-- Title Page -->
@@ -798,6 +798,6 @@
 	</section>
 
 	<!-- Container Selection1 -->
-	@include('snippets/select')
+	@include('components/select')
 
 @endsection

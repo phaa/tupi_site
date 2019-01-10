@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('templates.layout')
 @section('page_content')
 	<!-- Title Page -->
 	<section class="bg-title-page flex-c-m p-t-160 p-b-80 p-l-15 p-r-15" style="background-image: url(images/bg-title-page-03.jpg);">
@@ -23,6 +23,11 @@
 			</div>
 		</div>
 
+		@php
+			echo "instiga";
+
+		@endphp
+
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-lg-9">
@@ -34,6 +39,8 @@
 									<img src="images/blog-05.jpg" alt="IMG-BLOG">
 								</a>
 
+								asdfg hjklç
+							
 								<div class="date-blo4 flex-col-c-m">
 									<span class="txt30 m-b-4">
 										28

@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('templates.layout')
 
 @section('title', 'Início')
 <!-- Index blade -->
@@ -212,16 +212,17 @@
         <h3 class="tit3 t-center m-b-25 m-t-5">
             Encontre a gente!
         </h3>
+        <!--
         <div class="bo8 bo-rad-10 of-hidden p-t-7" style="background-color: #222;">
             <iframe width="100%" height="600" src="https://maps.google.com/maps?q=restaurante%20tupi%20goianinha&t=k&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-        </div>
+        </div> -->
     </div>
 </section>
 
 <!-- Intro -->
 <section class="section-intro">
 
-    <div class="header-intro parallax100 t-center p-t-135 p-b-158" style="background-image: url({{ asset('images/index/DSCF1784.jpg') }});">
+    <div class="header-intro parallax100 t-center p-t-135 p-b-158" style="background-image: url({{ asset('images/index/DSCF1805.jpg') }});">
 
 		<h3 class="tit4 t-center p-l-15 p-r-15 p-t-3">
 			Ambiente rústico
@@ -250,41 +251,23 @@
                     </div>
 
                     <div class="text-blo3 size21 flex-col-l-m">
-                        <a href="#" class="txt21 m-b-3">
-                            Sed varius
-                        </a>
+                        <span href="#" class="txt21 m-b-3">
+                            Camarão Seridoense
+                        </span>
 
                         <span class="txt23">
-                            Aenean pharetra tortor dui in pellentesque
+                            Descrição do seridoense
                         </span>
 
                         <span class="txt22 m-t-20">
-                            $29.79
+                            $00.00
                         </span>
                     </div>
                 </div>
 
-                <!-- Block3 -->
-                <div class="blo3 flex-w flex-col-l-sm m-b-30">
-                    <div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
-                        <a href="#"><img src="images/lunch-03.jpg" alt="IMG-MENU"></a>
-                    </div>
+            </div>
 
-                    <div class="text-blo3 size21 flex-col-l-m">
-                        <a href="#" class="txt21 m-b-3">
-                            tempus aliquet
-                        </a>
-
-                        <span class="txt23">
-                            Aenean condimentum ante erat
-                        </span>
-
-                        <span class="txt22 m-t-20">
-                            $45.09
-                        </span>
-                    </div>
-                </div>
-
+            <div class="col-md-6 m-l-r-auto">
                 <!-- Block3 -->
                 <div class="blo3 flex-w flex-col-l-sm m-b-30">
                     <div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
@@ -292,93 +275,39 @@
                     </div>
 
                     <div class="text-blo3 size21 flex-col-l-m">
-                        <a href="#" class="txt21 m-b-3">
-                            Duis massa
-                        </a>
+                        <span href="#" class="txt21 m-b-3">
+                            Peixe Manivá
+                        </span>
 
                         <span class="txt23">
-                            Proin lacinia nisl ut ultricies posuere nulla
+                            Descrição do Manivá
                         </span>
 
                         <span class="txt22 m-t-20">
-                            $12.75
-                        </span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6 m-l-r-auto">
-                <!-- Block3 -->
-                <div class="blo3 flex-w flex-col-l-sm m-b-30">
-                    <div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
-                        <a href="#"><img src="images/lunch-02.jpg" alt="IMG-MENU"></a>
-                    </div>
-
-                    <div class="text-blo3 size21 flex-col-l-m">
-                        <a href="#" class="txt21 m-b-3">
-                            sbrisalona
-                        </a>
-
-                        <span class="txt23">
-                            Proin lacinia nisl ut ultricies posuere nulla
-                        </span>
-
-                        <span class="txt22 m-t-20">
-                            $29.79
+                            $00.00
                         </span>
                     </div>
                 </div>
 
-                <!-- Block3 -->
-                <div class="blo3 flex-w flex-col-l-sm m-b-30">
-                    <div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
-                        <a href="#"><img src="images/lunch-04.jpg" alt="IMG-MENU"></a>
-                    </div>
-
-                    <div class="text-blo3 size21 flex-col-l-m">
-                        <a href="#" class="txt21 m-b-3">
-                            Cras eget magna
-                        </a>
-
-                        <span class="txt23">
-                            Sed fermentum eros vitae eros
-                        </span>
-
-                        <span class="txt22 m-t-20">
-                            $45.09
-                        </span>
-                    </div>
-                </div>
-
-                <!-- Block3 -->
-                <div class="blo3 flex-w flex-col-l-sm m-b-30">
-                    <div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
-                        <a href="#"><img src="images/lunch-06.jpg" alt="IMG-MENU"></a>
-                    </div>
-
-                    <div class="text-blo3 size21 flex-col-l-m">
-                        <a href="#" class="txt21 m-b-3">
-                            Nullam maximus
-                        </a>
-
-                        <span class="txt23">
-                            Duis massa nibh porttitor nec imperdiet eget
-                        </span>
-
-                        <span class="txt22 m-t-20">
-                            $12.75
-                        </span>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
 </section>
 
+<section class="section-intro">
+
+    <div class="header-intro parallax100 t-center p-t-135 p-b-158" style="background-image: url({{ asset('images/index/DSCF1784.jpg') }});">
+
+		<h3 class="tit4 t-center p-l-15 p-r-15 p-t-3">
+			Ambiente rústico
+		</h3>
+	</div>
+</section>
+
+
 <!-- Review -->
 <section class="section-review p-t-115 bg1-pattern">
 	<!-- - -->
-<!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/442bec19377651729e3586648213e217.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
     <div class="title-review t-center m-b-2">
 		<span class="tit2 p-l-15 p-r-15">
 			Customers Say
@@ -482,12 +411,16 @@
 	</div>
 </section>
 
+<section>
+    <div class="bg1">
 
-<!-- Sign up -->
-@include('snippets/sign-up')
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <div class="elfsight-app-a1a5d7ce-bd3d-49f6-8f13-6d796c99b226"></div>
+    </div>
+</section>
 
 <!-- Container Selection1 -->
-@include('snippets/select')
+@include('components/select')
 
 <!-- Modal Video 01-->
 <div class="modal fade" id="modal-video-01" tabindex="-1" role="dialog" aria-hidden="true">
@@ -498,7 +431,7 @@
 		<div class="wrap-video-mo-01">
 			<div class="w-full wrap-pic-w op-0-0"><img src="images/icons/video-16-9.jpg" alt="IMG"></div>
 			<div class="video-mo-01">
-				<iframe src="https://www.youtube.com/embed/5k1hSu2gdKE?rel=0&amp;showinfo=0" allowfullscreen></iframe>
+				<!--iframe src="https://www.youtube.com/embed/5k1hSu2gdKE?rel=0&amp;showinfo=0" allowfullscreen></iframe-->
 			</div>
 		</div>
 	</div>
@@ -507,4 +440,9 @@
 @endsection
 
 @section('additional_scripts')
+    <script type="text/javascript">
+    window.onload = function() {
+        $(".eapps-remove-link").parent().hide();
+    };
+    </script>
 @endsection

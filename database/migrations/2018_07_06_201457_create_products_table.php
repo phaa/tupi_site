@@ -17,8 +17,10 @@ class CreateProductsTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('description');
-            $table->double('price', 4, 2);
-            $table->string('image_path');
+            $table->double('price', 5, 2);
+            $table->string('image_filename');
+            $table->integer('product_category_id')->unsigned();
+            $table->foreign('product_category_id')->references('id')->on('product_categories');
             $table->timestamps();
         });
     }

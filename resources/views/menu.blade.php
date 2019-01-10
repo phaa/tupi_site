@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('templates.layout')
 
 @section('title', 'Cardápio')
 
@@ -446,6 +446,6 @@
 	</section>
 
 	<!-- Sign up -->
-	@include('snippets/sign-up')
+	@include('components/sign-up')
 
 @endsection

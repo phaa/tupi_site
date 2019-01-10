@@ -18,16 +18,16 @@
 	</head>
 	<body class="">
 		<!-- Header -->
-		@include('snippets/header')
+		@include('components/header')
 
 		<!-- Sidebar -->
-		@include('snippets/sidebar')
+		@include('components/sidebar')
 
 		<!-- Page Content -->
 		@yield('page_content')
 
 		<!-- Footer -->
-		@include('snippets/footer')
+		@include('components/footer')
 
 		<!-- Back to top -->
 		<!-- Back to top -->

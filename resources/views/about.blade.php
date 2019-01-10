@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('templates.layout')
 
 @section('title', 'Sobre o Tupi')
 
@@ -220,7 +220,7 @@
 
 
 	<!-- Sign up -->
-	@include('snippets/sign-up')
+	@include('components/sign-up')
 
 	<!-- Modal Video 01-->
 	<div class="modal fade" id="modal-video-01" tabindex="-1" role="dialog" aria-hidden="true">

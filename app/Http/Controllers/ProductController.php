@@ -3,27 +3,19 @@
 namespace tupi_site\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Product;
 
 class ProductController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+
+    // Página inicial de produtos
     public function index()
     {
-        $products = Product::latest()->paginate(5);
-
-
-
-        return view('products.index',compact('products'))
-
-            ->with('i', (request()->input('page', 1) - 1) * 5);
+        $products = Product::all()->groupBy('')
     }
 
     /**
-     * Show the form for creating a new resource.
+     * Retorna a view contento o formulário de criação de produtos
      *
      * @return \Illuminate\Http\Response
      */
