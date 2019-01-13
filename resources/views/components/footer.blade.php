@@ -2,7 +2,7 @@
 <footer style="background: rgba(0, 0, 0);">
     <div class="container p-t-40 p-b-70">
         <div class="row justify-content-md-center m-b-50 m-t-50">
-            <div class="col col-lg-2 t-center">
+            <div class="col text-center">
                 <h1 class="txt1 contact-footer">Contato</h1>
             </div>
         </div>

@@ -8,15 +8,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!--===============================================================================================-->
 		<link rel="icon" type="image/png" href="{{ asset('images/icons/favicon.png') }}"/>
-		<link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
+		<link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css') }}">
 		<link rel="stylesheet" type="text/css" href="{{ asset('css/vendor.css') }}">
 		<link rel="stylesheet" type="text/css" href="{{ asset('css/util.css') }}">
 		<link rel="stylesheet" type="text/css" href="{{ asset('css/main.css') }}">
 		<link rel="stylesheet" type="text/css" href="{{ asset('fonts/font-awesome-4.7.0/css/font-awesome.min.css') }}">
 		<link rel="stylesheet" type="text/css" href="{{ asset('fonts/themify/themify-icons.css') }}">
-
 	</head>
-	<body class="">
+	<body>
 		<!-- Header -->
 		@include('components/header')
 
