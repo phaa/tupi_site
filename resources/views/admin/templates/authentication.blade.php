@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width" />
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('img/apple-icon.png') }}" />
-    <link rel="icon" type="image/png" href="{{ asset('img/favicon.png') }}" />
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('images/icons/favicon.png') }}" />
+    <link rel="icon" type="image/png" href="{{ asset('images/icons/favicon.png') }}" />
     <!-- Bootstrap core CSS     -->
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" />
     <!--  Material Dashboard CSS    -->
@@ -119,7 +119,7 @@
         setTimeout(function() {
             // after 1000 ms we add the class animated to the login/register card
             $('.card').removeClass('card-hidden');
-        }, 700)
+        }, 1000)
     });
 </script>
 @yield('extra_scripts')

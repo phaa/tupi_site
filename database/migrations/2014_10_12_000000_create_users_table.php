@@ -21,6 +21,15 @@ class CreateUsersTable extends Migration
             $table->rememberToken();
             $table->timestamps();
         });
+
+        $usersTable = DB::table('users');
+        $usersTable->insert([
+                'name' => 'Administrador',
+                'email' => 'adm@email.com',
+                'password' => Hash::make('adm123'),
+                'created_at' =>  \Carbon\Carbon::now(), # \Datetime()
+                'updated_at' => \Carbon\Carbon::now(),  # \Datetime()
+        ]);
     }
 
     /**

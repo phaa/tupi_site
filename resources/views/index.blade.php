@@ -30,11 +30,11 @@
             <div class="item-slick1 item2-slick1" style="background-image: url(images/index/ambiente.jpg);">
                 <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
                     <span class="caption1-slide1 txt1 t-center animated visible-false m-b-15" data-appear="rollIn">
-                        Bem Vindo ao
+                        Amplo espaço para toda a família
                     </span>
 
                     <h2 class="caption2-slide1 tit1 t-center animated visible-false m-t-37" data-appear="lightSpeedIn">
-                        Restaurante Tupi
+                        Conforto
                     </h2>
                     <!--
                     <div class="wrap-btn-slide1 animated visible-false" data-appear="slideInUp">
@@ -50,8 +50,8 @@
             <div class="item-slick1 item3-slick1" style="background-image: url(images/index/planta.jpg);">
                 <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
                     <span class="caption1-slide1 txt1 t-center animated visible-false m-b-15" data-appear="rotateInDownLeft">
-						Ambiente sossegado. <br>
-						Vista incrível.
+						Ambiente sossegado <br>
+						Vista incrível
                     </span>
 
                     <h2 class="caption2-slide1 tit1 t-center animated visible-false m-t-37" data-appear="rotateInUpRight">
@@ -212,10 +212,9 @@
         <h3 class="tit3 t-center m-b-25 m-t-5">
             Encontre a gente!
         </h3>
-        <!--
         <div class="bo8 bo-rad-10 of-hidden p-t-7" style="background-color: #222;">
             <iframe width="100%" height="600" src="https://maps.google.com/maps?q=restaurante%20tupi%20goianinha&t=k&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-        </div> -->
+        </div>
     </div>
 </section>
 

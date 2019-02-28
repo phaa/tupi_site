@@ -11,8 +11,8 @@
         </a> -->
 
         <a href="" class="logo-normal">
-            <img class="container-fluid" style="max-width:80%; max-height:80%;
-            margin-top: -50px; margin-bottom: -50px;" src="{{ asset('img/FlexWhite.png')}}">
+            <img class="container" style="max-width:95%; max-height:95%;
+            margin-top: 10px; margin-bottom: 10px;" src="{{ asset('images/icons/TUPI.png') }}">
         </a>
 
     </div>
@@ -61,7 +61,7 @@
                 <div class="collapse" id="collapseExample">
                     <ul class="nav">
                         <li class="{{ classActiveSegment(2, 'perfil') }}">
-                            <a href="{{ route('user.profile') }}">
+                            <a href="">
                                 <span class="sidebar-mini"> MP </span>
                                 <span class="sidebar-normal"> Meu Perfil </span>
                             </a>
@@ -73,7 +73,7 @@
 
         <ul class="nav">
             <li class="{{ classActiveSegment(2, 'inicio') }}">
-                <a href="{{ route('index') }}">
+                <a href="">
                     <i class="material-icons">home</i>
                     <p> Início </p>
                 </a>
@@ -90,31 +90,31 @@
                     <div class="collapse" id="admin">
                         <ul class="nav">
                             <li class="{{ classActiveSegment(3, 'registrar_produto') }}">
-                                <a href="{{ route('admin.register_product_form') }}">
+                                <a href="">
                                     <i class="material-icons">add</i>
                                     <span class="sidebar-normal"> Cadastrar Produtos </span>
                                 </a>
                             </li>
                             <li class="{{ classActiveSegment(3, 'mostrar_produto') }}">
-                                <a href="{{ route('admin.show_products') }}">
+                                <a href="">
                                     <i class="material-icons">list</i>
                                     <span class="sidebar-normal"> Gerenciar Produtos </span>
                                 </a>
                             </li>
                             <li class="{{ classActiveSegment(3, 'funcionarios') }}">
-                                <a href="{{ route('admin.show_workers') }}">
+                                <a href="">
                                     <i class="material-icons">people</i>
                                     <span class="sidebar-normal"> Gerenciar Funcionários </span>
                                 </a>
                             </li>
                             <li class="{{ classActiveSegment(3, 'registrar_funcionario') }}">
-                                <a href="{{ route('admin.register_worker_form') }}">
+                                <a href="">
                                     <i class="material-icons">person_add</i>
                                     <span class="sidebar-normal"> Cadastar Funcionários </span>
                                 </a>
                             </li>
                         <li class="{{ classActiveSegment(3, 'mesas') }}">
-                            <a href="{{ route('admin.show_tables') }}">
+                            <a href="">
                                 <i class="material-icons">assignment_turned_in</i>
                                 <span class="sidebar-normal"> Reservar Mesas </span>
                             </a>
@@ -135,7 +135,7 @@
                     <div class="collapse" id="cashier">
                         <ul class="nav">
                             <li class="{{ classActiveSegment(3, 'caixa') }}">
-                                <a href="{{route('cashier.show_cashier_tables')}}">
+                                <a href="">
                                     <i class="material-icons">payment</i>
                                     <span class="sidebar-normal"> Gerenciar Caixa </span>
                                 </a>
@@ -156,7 +156,7 @@
                     <div class="collapse" id="waiter">
                         <ul class="nav">
                             <li class="{{ classActiveSegment(3, 'fazer_pedidos_') }}">
-                                <a href="{{ route('waiter.make_orders_form') }}">
+                                <a href="">
                                     <i class="material-icons">add</i>
                                     <span class="sidebar-normal"> Fazer Pedidos </span>
                                 </a>
@@ -164,7 +164,7 @@
                         </ul>
                         <ul class="nav">
                             <li class="{{ classActiveSegment(3, 'listar_pedidos_') }}">
-                                <a href="{{ route('waiter.list_orders') }}">
+                                <a href="">
                                     <i class="material-icons">list</i>
                                     <span class="sidebar-normal"> Painel de Mesas </span>
                                 </a>
@@ -172,7 +172,7 @@
                         </ul>
                         <ul class="nav">
                             <li class="{{ classActiveSegment(3, 'listar_produtos_') }}">
-                                <a href="{{ route('waiter.list_products') }}">
+                                <a href="">
                                     <i class="material-icons">list</i>
                                     <span class="sidebar-normal"> Listar Produtos </span>
                                 </a>
@@ -193,7 +193,7 @@
                     <div class="collapse" id="cooker">
                         <ul class="nav">
                             <li class="{{ classActiveSegment(3, 'listar_pedidos') }}">
-                                <a href="{{ route('cooker.list_orders') }}">
+                                <a href="">
                                     <i class="material-icons">room_service</i>
                                     <span class="sidebar-normal"> Visualizar Pedidos </span>
                                 </a>

@@ -7611,7 +7611,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 .txt11 {
   font-family: Old-Emma;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.1;
   color: white;
   text-transform: uppercase;
@@ -7620,8 +7620,8 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 .txt12 {
   font-family: Old-Emma;
   font-weight: 400;
-  font-size: 20px;
-  color: #333;
+  font-size: 25px;
+  color: #fff;
   line-height: 1.7; }
 
 .txt13 {
@@ -7722,7 +7722,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 .txt26 {
   font-family: Old-Emma;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 20px;
   color: #333333;
   text-transform: uppercase;
   letter-spacing: 2px; }

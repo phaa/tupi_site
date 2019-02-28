@@ -14,6 +14,7 @@ Route::post('password/email', 'Auth\ForgotPasswordController@sendResetLinkEmail'
 Route::get('password/reset/{token}', 'Auth\ResetPasswordController@showResetForm')->name('password.reset');
 Route::post('password/reset', 'Auth\ResetPasswordController@reset');
 
+// Rotas do sistema
 Route::view('/', 'index')->name('index');
 
 Route::get('/cardapio', function ()
@@ -61,7 +62,7 @@ Route::get('/reservas', function ()
 Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function ()
 {
     Route::get('/', function () {
-        return 'view';
+        return view('admin.index');
     });
 
     Route::get('{id}', function ($id) {

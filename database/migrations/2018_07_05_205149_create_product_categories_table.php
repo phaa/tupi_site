@@ -29,11 +29,10 @@ class CreateProductCategoriesTable extends Migration
             'Camarões',
             'Sobremesas'
         ];
-        for ($i = 0; $i < count($types); $i++)
-        {
-            $desc = $types[$i];
+
+        foreach ($types as $type) {
             $table->insert([
-                'description' => $desc,
+                'description' => $type,
                 'created_at' =>  \Carbon\Carbon::now(), # \Datetime()
                 'updated_at' => \Carbon\Carbon::now(),  # \Datetime()
             ]);
