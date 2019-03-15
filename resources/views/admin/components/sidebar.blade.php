@@ -5,10 +5,6 @@
     Tip 3: you can change the color of the sidebar with data-background-color="white | black"
     -->
     <div class="logo text-center">
-        <!--
-        <a href="" class="simple-text logo-mini">
-        FF
-        </a> -->
 
         <a href="" class="logo-normal">
             <img class="container" style="max-width:95%; max-height:95%;
@@ -48,7 +44,7 @@
     <div class="sidebar-wrapper">
         <div class="user">
             <div class="photo">
-                <img src="{{ asset('img/default-avatar.png') }}" />
+                <img src="{{ asset('images/avatar-01.jpg') }}" />
             </div>
             <div class="info">
                 <a id="profile-btn" data-toggle="collapse" href="#collapseExample" class="collapsed" aria-expanded="true">
@@ -79,50 +75,48 @@
                 </a>
             </li>
 
-            @if (Auth::user()->worker_type_id == 1)
-                <li class="{{ classActiveSegment(2, 'admin') }}">
-                    <a data-toggle="collapse" href="#admin" >
-                        <i class="material-icons">dashboard</i>
-                        <p> Administração
-                            <b class="caret"></b>
-                        </p>
-                    </a>
-                    <div class="collapse" id="admin">
-                        <ul class="nav">
-                            <li class="{{ classActiveSegment(3, 'registrar_produto') }}">
-                                <a href="">
-                                    <i class="material-icons">add</i>
-                                    <span class="sidebar-normal"> Cadastrar Produtos </span>
-                                </a>
-                            </li>
-                            <li class="{{ classActiveSegment(3, 'mostrar_produto') }}">
-                                <a href="">
-                                    <i class="material-icons">list</i>
-                                    <span class="sidebar-normal"> Gerenciar Produtos </span>
-                                </a>
-                            </li>
-                            <li class="{{ classActiveSegment(3, 'funcionarios') }}">
-                                <a href="">
-                                    <i class="material-icons">people</i>
-                                    <span class="sidebar-normal"> Gerenciar Funcionários </span>
-                                </a>
-                            </li>
-                            <li class="{{ classActiveSegment(3, 'registrar_funcionario') }}">
-                                <a href="">
-                                    <i class="material-icons">person_add</i>
-                                    <span class="sidebar-normal"> Cadastar Funcionários </span>
-                                </a>
-                            </li>
-                        <li class="{{ classActiveSegment(3, 'mesas') }}">
-                            <a href="">
-                                <i class="material-icons">assignment_turned_in</i>
-                                <span class="sidebar-normal"> Reservar Mesas </span>
+            <li class="{{ classActiveSegment(2, 'admin') }}">
+                <a data-toggle="collapse" href="#admin" >
+                    <i class="material-icons">dashboard</i>
+                    <p> Administração
+                        <b class="caret"></b>
+                    </p>
+                </a>
+                <div class="collapse" id="admin">
+                    <ul class="nav">
+                        <li class="{{ classActiveSegment(3, 'listar_produtos') }}">
+                            <a href="{{ route('products_index') }}">
+                                <i class="material-icons">list</i>
+                                <span class="sidebar-normal"> Gerenciar Produtos </span>
                             </a>
                         </li>
-                    </ul>
-                    </div>
-                </li>
-            @endif
+                        <li class="{{ classActiveSegment(3, 'cadastrar_produto') }}">
+                            <a href="{{ route('product_register_form') }}">
+                                <i class="material-icons">add</i>
+                                <span class="sidebar-normal"> Cadastrar Produtos </span>
+                            </a>
+                        </li>
+                        <li class="{{ classActiveSegment(3, 'funcionarios') }}">
+                            <a href="">
+                                <i class="material-icons">people</i>
+                                <span class="sidebar-normal"> Gerenciar Funcionários </span>
+                            </a>
+                        </li>
+                        <li class="{{ classActiveSegment(3, 'registrar_funcionario') }}">
+                            <a href="">
+                                <i class="material-icons">person_add</i>
+                                <span class="sidebar-normal"> Cadastar Funcionários </span>
+                            </a>
+                        </li>
+                    <li class="{{ classActiveSegment(3, 'mesas') }}">
+                        <a href="">
+                            <i class="material-icons">assignment_turned_in</i>
+                            <span class="sidebar-normal"> Reservar Mesas </span>
+                        </a>
+                    </li>
+                </ul>
+                </div>
+            </li>
 
             @if (Auth::user()->worker_type_id == 1 || Auth::user()->worker_type_id == 2)
                 <li class="{{ classActiveSegment(2, 'caixa') }}">
@@ -202,6 +196,17 @@
                     </div>
                 </li>
             @endif
+
+            <li>
+                <a href="" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                    <i style="color: #f44336;" class="material-icons">exit_to_app</i>
+                    <p style="color: #f44336; font-weight: 600;"> Sair do sistema </p>
+                </a>
+            </li>
+
+            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                @csrf
+            </form>
         </ul>
     </div>
 </div>
