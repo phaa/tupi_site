@@ -22,7 +22,7 @@
 </head>
 
 <body>
-    <div class="wrapper bg1-pattern">
+    <div class="wrapper">
         @include('admin.components.sidebar')
         <div class="main-panel">
             @include('admin.components.uppernav')
@@ -31,7 +31,7 @@
                     @yield('content')
                 </div>
             </div>
-            @include('admin.components.footer')
+            <!--@include('admin.components.footer')-->
         </div>
     </div>
 </body>

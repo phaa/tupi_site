@@ -65,9 +65,10 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function ()
         return view('admin.index');
     });
 
-    Route::get('{id}', function ($id) {
-        return "Este é o usuario $id";
-    });
+    Route::get('/listar_produtos', 'ProductController@index')->name('products_index');
+
+    Route::get('/cadastrar_produto', 'ProductController@create')->name('product_register_form');
+    Route::post('/cadastrar_produto', 'ProductController@create')->name('product_register_post');
 
     Route::get('{id}/edit', function ($id) {
         return 'Este é o usuario $id';

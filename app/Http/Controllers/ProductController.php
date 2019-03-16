@@ -2,26 +2,37 @@
 
 namespace tupi_site\Http\Controllers;
 
+use tupi_site\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Product;
+use tupi_site\Product;
+use tupi_site\ProductCategory;
 
 class ProductController extends Controller
 {
 
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     // Página inicial de produtos
     public function index()
     {
-        $products = Product::all()->groupBy('')
+        $products = Product::join('product_categories', 'products.product_category_id', '=', 'product_categories.id')
+            ->select('products.*', 'product_categories.description as category_description')
+            ->get();
+        return view('admin.products.product_show_all', compact('products'));
     }
 
     /**
      * Retorna a view contento o formulário de criação de produtos
      *
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Http\View
      */
     public function create()
     {
-        return view('menu');
+        $categories = ProductCategory::all();
+        return view('admin.products.product_register', compact('categories'));
     }
 
     /**
@@ -32,7 +43,16 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $product = Product::create([
+            'name' => $request->input('name'),
+            'description' => $request->input('description'),
+            'price' => $request->input('price'),
+            'product_category_id' => $request->input('product_type')
+        ]);
+
+        $response = "Produto cadastrado com sucesso!";
+        Session::flash('message', $response);
+        return redirect()->route('product_register_form');
     }
 
     /**
