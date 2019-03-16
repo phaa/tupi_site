@@ -8,7 +8,7 @@
 <section class="section-slide">
     <div class="wrap-slick1">
         <div class="slick1">
-            <div class="item-slick1 item1-slick1" style="background-image: url(images/index/deck.JPG);">
+            <div class="item-slick1 item1-slick1" style="background-image: url(images/index/deck.jpg);">
                 <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
                     <span class="caption1-slide1 txt1 t-center animated visible-false m-b-15" data-appear="fadeInDown">
                         Bem Vindo ao
@@ -291,16 +291,6 @@
             </div>
         </div>
     </div>
-</section>
-
-<section class="section-intro">
-
-    <div class="header-intro parallax100 t-center p-t-135 p-b-158" style="background-image: url({{ asset('images/index/DSCF1784.jpg') }});">
-
-		<h3 class="tit4 t-center p-l-15 p-r-15 p-t-3">
-			Ambiente rústico
-		</h3>
-	</div>
 </section>
 
 
