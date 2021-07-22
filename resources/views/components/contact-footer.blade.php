@@ -14,7 +14,7 @@
             <div class="col-sm-8 col-md-4 col-lg-4 m-l-r-auto p-t-30">
                 <div class="dis-flex m-l-23">
                     <div class="p-r-40 p-t-6">
-                        <i style="font-size: 30px; color: #222;" class="fas fa-map-marker dis-inline-block size19" aria-hidden="true"></i>
+                        <i style="font-size: 30px; color: #222;" class="fas fa-map-marker-alt dis-inline-block size19" aria-hidden="true"></i>
                     </div>
                     <div class="flex-col-l">
                         <span class="txt37 p-b-10">
@@ -48,7 +48,7 @@
             <div class="col-sm-8 col-md-3 col-lg-4 m-l-r-auto p-t-30">
                 <div class="dis-flex m-l-23">
                     <div class="p-r-40 p-t-6">
-                        <i style="font-size: 30px; color: #222;" class="fas fa-phone dis-inline-block size19" aria-hidden="true"></i>
+                        <i style="font-size: 30px; color: #222;" class="fab fa-whatsapp-square dis-inline-block size19" aria-hidden="true"></i>
                     </div>
                     <div class="flex-col-l">
                         <span class="txt37 p-b-10">
@@ -57,10 +57,10 @@
                         <span class="txt38 size38">
                             <ol>
                                 <li>
-                                    <a href="tel:84994494411" class="txt38">(84) 99449-4411</a>
+                                    <a href="https://wa.me/5584994494411" class="txt38">(84) 99449-4411</a>
                                 </li>
                                 <li>
-                                    <a href="tel:84994482254" class="txt38">(84) 99448-2254</a>
+                                    <a href="https://wa.me/5584994482254" class="txt38">(84) 99448-2254</a>
                                 </li>
                             </ol>
                         </span>
@@ -70,6 +70,8 @@
         </div>
         <div class="m-t-30"> 
             <div class="t-center"> 
+                <img src="{{ asset('images/icons/cards/pix.png') }}">
+
                 <img src="{{ asset('images/icons/cards/visa.png') }}">
             
                 <img src="{{ asset('images/icons/cards/visaeletron.png') }}">

@@ -2,7 +2,7 @@
 <html>
 <head>
 
-    <title>Laravel 5.7 image upload example - HDTuto.com</title>
+    <title>Upload de imagem</title>
 
     <link rel="icon" type="image/png" href="{{ asset('images/icons/favicon.png') }}"/>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -13,7 +13,7 @@
 <div class="container">
     <div class="panel panel-primary">
 
-      <div class="panel-heading"><h2>Laravel 5.7 image upload example - HDTuto.com</h2></div>
+      <div class="panel-heading"><h2>Upload de imagem</h2></div>
 
       <div class="panel-body">
         @if ($message = Session::get('success'))
@@ -40,7 +40,7 @@
                     <input type="file" name="image" class="form-control">
                 </div>
                 <div class="col-md-6">
-                    <input type="text" name="alt_text" placeholder="Nome de acesso" class="form-control">
+                    <input type="text" name="alt_text" placeholder="Nome de acesso (alt text)" class="form-control">
                 </div>
                 <div class="col-md-2">
                     <button type="submit" class="btn btn-success">Upload</button>

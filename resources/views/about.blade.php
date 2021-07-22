@@ -51,8 +51,7 @@ Restaurante Tupi - Sobre Nós
 			&emsp;&emsp;Oferecemos um cardápio variado de culinária regional como, por exemplo, carne de sol, paçoca, 
 			peixes, camarões, moquecas e galinha caipira. Todos com variações em pratos 
 			para duas e quatro pessoas, além de petiscos variados. Sucos de frutas e de polpas, drinques, cervejas, 
-			refrigerantes, café espresso e sobremesas. Dispomos de pratos individuais de terça a 
-			sexta e oferecemos buffet para eventos.
+			refrigerantes, café espresso e sobremesas.
 			<br>
 			&emsp;&emsp;Localização - onze quilomêtros após Goianinha na BR 101, Km 157, sentido 
 			Paraíba. Distante 600 metros após a entrada. Temos placas sinalizando.
@@ -103,7 +102,7 @@ Restaurante Tupi - Sobre Nós
 						Conheça
 					</span>
 					<h3 class="tit3 m-t-5 contact-footer">
-						Nossas instalações
+						Nossos espaços
 					</h3>
 				</div>
 				<div class="col-md-4 p-t-30">

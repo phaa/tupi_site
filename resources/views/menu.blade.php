@@ -22,12 +22,12 @@ Cardápio
     <div class="container">
         <div class="row justify-content-md-center contact-footer m-b-30">
             <div class="col-sm-12 text-center">
-                <span class="tit2">Os Pratos</span>
+                <span class="tit2">Pratos</span>
                 <h1 class="txt1 ">Mais Pedidos</h1>
             </div>
             <div style="margin: auto 0" class="col-sm-12 text-center">
                 <span class="txt21">
-                O Tupi oferece uma ampla variedade de pratos da culinária regional.<br>
+                    O Tupi oferece uma ampla variedade de pratos da culinária regional.<br>
                 </span>
             </div>
         </div>
@@ -47,7 +47,7 @@ Cardápio
 						</span>
 
                         <span class="txt23">
-							Camarão empanado com arroz cremoso de queijo e batata frita.
+							Camarão empanado ao modo Tupi. Acompanha arroz cremoso de manteiga de camarão e coalho e batata frita.
 						</span>
                     </div>
                 </div>
@@ -66,8 +66,8 @@ Cardápio
 						</span>
 
                         <span class="txt23">
-							Camarão salteado com creme de macaxeira.
-                            Acompanha arroz, farofa e macaxeira frita.
+							Camarão salteado na manteiga da terra com creme de macaxeira.
+                            Acompanha arroz branco, farofa e macaxeira frita.
 						</span>
                     </div>
                 </div>
@@ -86,7 +86,7 @@ Cardápio
 						</span>
 
                         <span class="txt23">
-							Acompanha baião de dois e macaxeira frita.
+							Carne de sol grelhada. Acompanha baião de dois defumado e macaxeira frita.
 						</span>
                     </div>
                 </div>
@@ -104,18 +104,37 @@ Cardápio
 						</span>
 
                         <span class="txt23">
-							Acompanha arroz de leite, feijão verde e macaxeira frita.
+							Carne de sol triturada, salteada com temperos regionais. Acompanha arroz de leite, feijão verde e macaxeira frita.
 						</span>
                     </div>
                 </div>
+
+                <div class="blo3 flex-w flex-col-l-sm m-b-30">
+                    <div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
+                        <a href="{{ asset('images/menu/camarao_alho_oleo.jpg') }}" data-lightbox="gallery">
+                            <img src="{{ asset("images/menu/thumbs/camarao_alho_oleo.jpg ") }}" alt="Croquete">
+                        </a>
+                    </div>
+
+                    <div class="text-blo3 size21 flex-col-l-m">
+                        <span class="txt21b m-b-3">
+							Camarão no alho e óleo
+						</span>
+
+                        <span class="txt23">
+							Camarão salteado no alho e óleo. Acompanha arroz branco, macaxeira frita, farofa e vinagrete.
+						</span>
+                    </div>
+                </div>
+
             </div>
 
             <div class="col-md-8 col-lg-6 m-l-r-auto">
                 <!-- Block3 -->
                 <div class="blo3 flex-w flex-col-l-sm m-b-30">
                     <div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
-                        <a href="{{ asset('images/menu/potiguar.jpg') }}" data-lightbox="gallery">
-                            <img src="{{ asset("images/menu/thumbs/potiguar.jpg ") }}" alt="Croquete de Charque">
+                        <a href="{{ asset('images/menu/peixe_potiguar.jpg') }}" data-lightbox="gallery">
+                            <img src="{{ asset("images/menu/thumbs/peixe_potiguar.jpg ") }}" alt="Croquete de Charque">
                         </a>
                     </div>
 
@@ -125,8 +144,7 @@ Cardápio
 						</span>
 
                         <span class="txt23">
-							Peixe grelhado com arroz cremoso de camarão.
-                            Acompanha macaxeira frita.
+							Peixe grelhado com molho de ervas. Acompanha arroz cremoso de camarão e macaxeira frita.
 						</span>
                     </div>
                 </div>
@@ -134,8 +152,8 @@ Cardápio
                 <!-- Block3 -->
                 <div class="blo3 flex-w flex-col-l-sm m-b-30">
                     <div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
-                        <a href="{{ asset('images/menu/moqueca_peixe.jpg') }}" data-lightbox="gallery">
-                            <img src="{{ asset("images/menu/thumbs/moqueca_peixe.jpg ") }}" alt="Moqueca de Peixe e Camarão">
+                        <a href="{{ asset('images/menu/moqueca.jpg') }}" data-lightbox="gallery">
+                            <img src="{{ asset("images/menu/thumbs/moqueca.jpg ") }}" alt="Moqueca de Peixe e Camarão">
                         </a>
                     </div>
 
@@ -145,7 +163,7 @@ Cardápio
 						</span>
 
                         <span class="txt23">
-							Acompanha arroz, farofa e pirão.
+							Acompanha arroz branco, farofa e pirão de peixe.
 						</span>
                     </div>
                 </div>
@@ -164,25 +182,44 @@ Cardápio
 						</span>
 
                         <span class="txt23">
-                            Acompanha arroz, feijão verde, pirão, vinagrete, macaxeira e farofa.
+                            Galinha caipira torrada. Acompanha arroz branco, feijão verde, pirão de galinha, vinagrete, macaxeira cozida e farofa.
 						</span>
                     </div>
                 </div>
 
                 <div class="blo3 flex-w flex-col-l-sm m-b-30">
                     <div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
-                        <a href="{{ asset('images/menu/croquete.jpg') }}" data-lightbox="gallery">
-                            <img src="{{ asset("images/menu/thumbs/croquete.jpg ") }}" alt="Croquete">
+                        <a href="{{ asset('images/menu/carne_sol.jpg') }}" data-lightbox="gallery">
+                            <img src="{{ asset("images/menu/thumbs/carne_sol.jpg ") }}" alt="Croquete">
                         </a>
                     </div>
 
                     <div class="text-blo3 size21 flex-col-l-m">
                         <span class="txt21b m-b-3">
-							Croquete Tupi
+							Carne de sol
 						</span>
 
                         <span class="txt23">
-							Empanado a base de carne de charque e jerimum temperado.
+							Carne de sol grelhada. Acompanha arroz branco, feijão verde, pirão de galinha, vinagrete, macaxeira cozida e farofa.
+						</span>
+                    </div>
+                </div>
+
+                <div class="blo3 flex-w flex-col-l-sm m-b-30">
+                    <div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
+                        <a href="{{ asset('images/menu/catu.jpg') }}" data-lightbox="gallery">
+                            <img src="{{ asset("images/menu/thumbs/catu.jpg ") }}" alt="Croquete">
+                        </a>
+                    </div>
+
+                    <div class="text-blo3 size21 flex-col-l-m">
+                        <span class="txt21b m-b-3">
+							Camarão Catu
+						</span>
+
+                        <span class="txt23">
+							Camarão salteado na manteiga da terra com creme de macaxeira, azeite de dendê e leite de coco.
+                            Acompanha arroz branco, farofa e macaxeira frita.
 						</span>
                     </div>
                 </div>

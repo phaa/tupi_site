@@ -140,7 +140,7 @@ Restaurante Tupi - Comer Bem com a Natureza em Goianinha - RN
 			Encontre a gente!
 		</span>
         <h3 class="tit3 m-b-25 m-t-5 contact-footer">
-            Veja o mapa<i style="font-size: 30px;" class="fas fa-map-marker dis-inline-block" aria-hidden="true"></i>
+            Veja o mapa<i style="font-size: 30px;" class="fas fa-map-marker-alt dis-inline-block" aria-hidden="true"></i>
         </h3>
         <div class="bo8 bo-rad-10 of-hidden p-t-7" style="background-color: #222;">
             <iframe width="100%" height="600" src="https://maps.google.com/maps?q=restaurante%20tupi%20goianinha&t=k&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
@@ -163,8 +163,7 @@ Restaurante Tupi - Comer Bem com a Natureza em Goianinha - RN
                     </span>
 
 					<p class="t-center m-b-22 size3 m-l-r-auto">
-						Veja como eles ficaram contentes conosco.
-                        <br>Olhe as experiências que eles compartilharam daqui<i style="color:#dc3545;" class="fa fa-heart"></i>
+						Veja experiências que eles compartilharam conosco <i style="color:#dc3545;" class="fa fa-heart"></i>
 					</p>
 				</div>
 			</div>
@@ -174,8 +173,8 @@ Restaurante Tupi - Comer Bem com a Natureza em Goianinha - RN
 			</div>
 		</div>
 	</div>
-</section>
--->
+</section>-->
+
 <!-- Intro -->
 <section>
     <div class="header-intro rustic t-center p-t-135 p-b-135">

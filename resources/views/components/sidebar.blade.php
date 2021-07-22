@@ -45,9 +45,9 @@
     </div>
 
     <li class="t-center">
-        <a href="tel:84994494411" style="color: #fff;">(84) 99449-4411</a>
+        <a href="https://wa.me/5584994494411" style="color: #fff;">(84) 99449-4411</a>
     </li>
     <li class="t-center">
-        <a href="tel:84994482254" style="color: #fff;">(84) 99448-2254</a>
+        <a href="https://wa.me/5584994482254" style="color: #fff;">(84) 99448-2254</a>
     </li>
 </aside>
