@@ -19,7 +19,7 @@ Contato
 
 
 	<!-- Contact form -->
-	<section class="section-contact bg1-pattern p-t-90">
+	<section class="section-contact bg1-pattern p-t-70 p-b-70">
 		<!-- Map -->
 		<div class="container t-center">
 			<span class="tit2 p-l-15 p-r-15">

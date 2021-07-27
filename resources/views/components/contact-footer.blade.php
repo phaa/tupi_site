@@ -3,10 +3,10 @@
     <div class="container p-b-70">
         <div class="t-center m-b-50 p-t-30">
             <span class="tit2 p-l-15 p-r-15">
-                Pagamento e
+                Pagamentos
             </span>
             <h3 class="tit3 m-b-25 m-t-5 contact-footer">
-                Contatos
+                e Contatos
             </h3>
         </div>
         

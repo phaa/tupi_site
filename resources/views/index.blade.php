@@ -93,7 +93,7 @@ Restaurante Tupi - Comer Bem com a Natureza em Goianinha - RN
 					<p class="size3 p-t-20 m-l-r-auto">
                         &emsp;&emsp;Sejam Bem-vindos! Estamos localizados a 600 metros da BR-101 no 
                         caminho entre Natal e João Pessoa.
-                        Somos uma empresa familiar, atuando há doze anos no mercado gastronômico, que acredita que comida saborosa e 
+                        Somos uma empresa familiar, atuando há treze anos no mercado gastronômico, que acredita que comida saborosa e 
                         atendimento eficiente não precisam ser caros. Por isso, nosso objetivo é 
                         proporcionar serviços com alto padrão de qualidade aliados a um preço justo.
 					</p>

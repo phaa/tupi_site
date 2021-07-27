@@ -6,10 +6,12 @@
         </span>
     </button>
 
+    <div class="p-l-50 p-r-50">
+        <img style="width: 100%;" src="{{ asset("images/icons/tupi_logo_completa.png") }}" alt="IMG-LOGO">
+    </div>
+
     <ul class="menu-sidebar" style="margin-top:1%;">
-        <div class="p-l-50 p-r-50">
-            <img style="width: 100%;" src="{{ asset("images/icons/tupi_logo_completa.png") }}" alt="IMG-LOGO">
-        </div>
+        
         <li class="t-center {{ Route::current()->getName() == 'index' ? 'active_link' : '' }}">
             <a href="{{ route('index') }}" class="txt12">Início</a>
         </li>
@@ -44,10 +46,10 @@
         </div>
     </div>
 
-    <li class="t-center">
+    <div class="t-center">
         <a href="https://wa.me/5584994494411" style="color: #fff;">(84) 99449-4411</a>
-    </li>
-    <li class="t-center">
+    </div>
+    <div class="t-center">
         <a href="https://wa.me/5584994482254" style="color: #fff;">(84) 99448-2254</a>
-    </li>
+    </div>
 </aside>

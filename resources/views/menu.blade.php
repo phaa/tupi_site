@@ -37,7 +37,7 @@ Cardápio
                 <div class="blo3 flex-w flex-col-l-sm m-b-30">
                     <div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
                         <a href="{{ asset('images/menu/oca.jpg') }}" data-lightbox="gallery">
-                            <img src="{{ asset("images/menu/thumbs/oca.jpg ") }}" alt="Camarão Oca">
+                            <img src="{{ asset("images/menu/oca.jpg ") }}" alt="Camarão Oca">
                         </a>
                     </div>
 
@@ -56,7 +56,7 @@ Cardápio
                 <div class="blo3 flex-w flex-col-l-sm m-b-30">
                     <div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
                         <a href="{{ asset('images/menu/seridoense.jpg') }}" data-lightbox="gallery">
-                            <img src="{{ asset("images/menu/thumbs/seridoense.jpg ") }}" alt="Camarão Seridoense">
+                            <img src="{{ asset("images/menu/seridoense.jpg ") }}" alt="Camarão Seridoense">
                         </a>
                     </div>
 
@@ -76,7 +76,7 @@ Cardápio
                 <div class="blo3 flex-w flex-col-l-sm m-b-30">
                     <div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
                         <a href="{{ asset('images/menu/pituba.jpg') }}" data-lightbox="gallery">
-                            <img src="{{ asset("images/menu/thumbs/pituba.jpg ") }}" alt="Carne de Sol Pituba">
+                            <img src="{{ asset("images/menu/pituba.jpg ") }}" alt="Carne de Sol Pituba">
                         </a>
                     </div>
 
@@ -94,7 +94,7 @@ Cardápio
                 <div class="blo3 flex-w flex-col-l-sm m-b-30">
                     <div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
                         <a href="{{ asset('images/menu/pacoca.jpg') }}" data-lightbox="gallery">
-                            <img src="{{ asset("images/menu/thumbs/pacoca.jpg ") }}" alt="Paçoca">
+                            <img src="{{ asset("images/menu/pacoca.jpg ") }}" alt="Paçoca">
                         </a>
                     </div>
 
@@ -112,7 +112,7 @@ Cardápio
                 <div class="blo3 flex-w flex-col-l-sm m-b-30">
                     <div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
                         <a href="{{ asset('images/menu/camarao_alho_oleo.jpg') }}" data-lightbox="gallery">
-                            <img src="{{ asset("images/menu/thumbs/camarao_alho_oleo.jpg ") }}" alt="Croquete">
+                            <img src="{{ asset("images/menu/camarao_alho_oleo.jpg ") }}" alt="Croquete">
                         </a>
                     </div>
 
@@ -134,7 +134,7 @@ Cardápio
                 <div class="blo3 flex-w flex-col-l-sm m-b-30">
                     <div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
                         <a href="{{ asset('images/menu/peixe_potiguar.jpg') }}" data-lightbox="gallery">
-                            <img src="{{ asset("images/menu/thumbs/peixe_potiguar.jpg ") }}" alt="Croquete de Charque">
+                            <img src="{{ asset("images/menu/peixe_potiguar.jpg ") }}" alt="Croquete de Charque">
                         </a>
                     </div>
 
@@ -153,7 +153,7 @@ Cardápio
                 <div class="blo3 flex-w flex-col-l-sm m-b-30">
                     <div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
                         <a href="{{ asset('images/menu/moqueca.jpg') }}" data-lightbox="gallery">
-                            <img src="{{ asset("images/menu/thumbs/moqueca.jpg ") }}" alt="Moqueca de Peixe e Camarão">
+                            <img src="{{ asset("images/menu/moqueca.jpg ") }}" alt="Moqueca de Peixe e Camarão">
                         </a>
                     </div>
 
@@ -172,7 +172,7 @@ Cardápio
                 <div class="blo3 flex-w flex-col-l-sm m-b-30">
                     <div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
                         <a href="{{ asset('images/menu/galinha.jpg') }}" data-lightbox="gallery">
-                            <img src="{{ asset("images/menu/thumbs/galinha.jpg ") }}" alt="Moqueca de Peixe e Camarão">
+                            <img src="{{ asset("images/menu/galinha.jpg ") }}" alt="Moqueca de Peixe e Camarão">
                         </a>
                     </div>
 
@@ -190,7 +190,7 @@ Cardápio
                 <div class="blo3 flex-w flex-col-l-sm m-b-30">
                     <div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
                         <a href="{{ asset('images/menu/carne_sol.jpg') }}" data-lightbox="gallery">
-                            <img src="{{ asset("images/menu/thumbs/carne_sol.jpg ") }}" alt="Croquete">
+                            <img src="{{ asset("images/menu/carne_sol.jpg ") }}" alt="Croquete">
                         </a>
                     </div>
 
@@ -208,7 +208,7 @@ Cardápio
                 <div class="blo3 flex-w flex-col-l-sm m-b-30">
                     <div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
                         <a href="{{ asset('images/menu/catu.jpg') }}" data-lightbox="gallery">
-                            <img src="{{ asset("images/menu/thumbs/catu.jpg ") }}" alt="Croquete">
+                            <img src="{{ asset("images/menu/catu.jpg ") }}" alt="Croquete">
                         </a>
                     </div>
 
