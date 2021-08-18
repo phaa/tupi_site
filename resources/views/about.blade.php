@@ -31,14 +31,16 @@ Restaurante Tupi - Sobre Nós
 			&emsp;&emsp;Somos uma empresa familiar atuando no mercado gastronômico há treze anos, 
 			objetivando serviços de qualidade e padrão, aliado a preço justo, porque acreditamos que, 
 			comida boa e saborosa com atendimento eficaz não precisa ser caro.
-			<br><br>
+		</p>
+		<p class="size32 m-l-r-auto">
 			&emsp;&emsp;O Tupi foi pensado e criado para oferecer aos clientes refeições saborosas em 
 			ambiente agradável, tranquilo e diferenciado, com acessibilidade e segurança. O espaço 
 			proporciona às famílias momentos de paz e bem-estar em meio à natureza. A proposta da 
 			casa é, comer bem e relaxar, fugir da agitação do dia a dia, conversar e se envolver com 
 			a natureza ao redor. Meditar, colocar o pé no chão, sentir a brisa fresca, ouvir o canto 
 			dos pássaros e desfrutar das belas paisagens.
-			<br><br>
+		</p>
+		<p class="size32 m-l-r-auto">
 			&emsp;&emsp;Estamos situados dentro de uma propriedade familiar (Fazenda Pituba), às 
 			margens da Mata Atlântica. Nosso ambiente se configura em amplo estacionamento, lugares 
 			para 120 pessoas, um redário para uma soneca após o almoço, mirante para fotos únicas, 
@@ -47,15 +49,16 @@ Restaurante Tupi - Sobre Nós
 			gelado e cheio de energia positiva. Aqui no Tupi os clientes podem desfrutar de um 
 			delicioso <span style="color:#43A906">banho de bica, dentro da Mata</span>, recarregando 
 			as energias em contato com um pequeno paraíso.
-			<br><br>
+		</p>
+		<p class="size32 m-l-r-auto">
 			&emsp;&emsp;Oferecemos um cardápio variado de culinária regional como, por exemplo, carne de sol, paçoca, 
 			peixes, camarões, moquecas e galinha caipira. Todos com variações em pratos 
 			para duas e quatro pessoas, além de petiscos variados. Sucos de frutas e de polpas, drinques, cervejas, 
 			refrigerantes, café espresso e sobremesas.
-			<br><br>
+		</p>
+		<p class="size32 m-l-r-auto">
 			&emsp;&emsp;Localização - onze quilomêtros após Goianinha na BR 101, Km 157, sentido 
 			Paraíba. Distante 600 metros após a entrada. Temos placas sinalizando.
-
 		</p>
 	</section>
 
@@ -87,7 +90,8 @@ Restaurante Tupi - Sobre Nós
 			muitos. A cultura e a filosofia indígenas ainda são muito desvalorizadas em nosso país, 
 			e estamos esquecendo que os índios contribuíram e muito para a formação dos nossos 
 			hábitos, costumes e da nossa cultura.
-			<br><br>
+		</p>
+		<p class="size32 m-l-r-auto">
 			&emsp;&emsp;Portanto, escolher esse nome é uma forma de relembrar e homenagear, 
 			mesmo que pouco, o primeiro idioma do Brasil, os primeiros habitantes das nossas 
 			terras e a cultura indígena que na sua essência é belíssima e muito rica.
@@ -156,66 +160,6 @@ Restaurante Tupi - Sobre Nós
 						<div class="wrap-text-blo1 p-t-35">
 							<h4 class="txt5 color0-hov trans-0-4 m-b-13 text-center">
 								Redário
-							</h4>
-
-							<p class="m-b-20">
-								Também dispomos de um espaço ventilado destinado ao repouso e relaxamento dos clientes.
-							</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4 p-t-30">
-					<div class="blo1">
-						<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
-							<a href="{{ asset('images/original/redario.jpg') }}" data-lightbox="gallery">
-								<img src="{{ asset('images/thumbs/redario.jpg') }}" alt="Redário Tupi">
-							</a>
-						</div>
-
-						<div class="wrap-text-blo1 p-t-35">
-							<h4 class="txt5 color0-hov trans-0-4 m-b-13 text-center">
-								Rio
-							</h4>
-
-							<p class="m-b-20">
-								Também dispomos de um espaço ventilado destinado ao repouso e relaxamento dos clientes.
-							</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4 p-t-30">
-					<div class="blo1">
-						<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
-							<a href="{{ asset('images/original/redario.jpg') }}" data-lightbox="gallery">
-								<img src="{{ asset('images/thumbs/redario.jpg') }}" alt="Redário Tupi">
-							</a>
-						</div>
-
-						<div class="wrap-text-blo1 p-t-35">
-							<h4 class="txt5 color0-hov trans-0-4 m-b-13 text-center">
-								Jardim
-							</h4>
-
-							<p class="m-b-20">
-								Também dispomos de um espaço ventilado destinado ao repouso e relaxamento dos clientes.
-							</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4 p-t-30">
-					<div class="blo1">
-						<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
-							<a href="{{ asset('images/original/redario.jpg') }}" data-lightbox="gallery">
-								<img src="{{ asset('images/thumbs/redario.jpg') }}" alt="Redário Tupi">
-							</a>
-						</div>
-
-						<div class="wrap-text-blo1 p-t-35">
-							<h4 class="txt5 color0-hov trans-0-4 m-b-13 text-center">
-								Mata Atlântica
 							</h4>
 
 							<p class="m-b-20">
