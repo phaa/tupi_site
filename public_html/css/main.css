@@ -94,7 +94,8 @@ button {
     cursor: pointer; }
 
 section {
-  background-image: url(../images/textures/sackcloth-texture.jpg); }
+  background-image: url(../images/textures/sackcloth-texture.jpg); 
+}
 
 iframe {
   border: none !important; }
@@ -972,9 +973,48 @@ body {
 
   .bg-title-page .tit6 {
     font-size: 60px; } }
+
 /*[ Item mainmenu ]
 ///////////////////////////////////////////////////////////
 */
+
+.wrapper-mainmenu {
+  margin-top: 15px;
+}
+
+.item-mainmenu {
+  margin-top: 10px;
+  
+}
+
+
+.line-item-mainmenu {
+  flex-grow: 1;
+  height: 2px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+@media (max-width: 576px) {
+  .line-item-mainmenu {
+    display: none;
+  }
+
+  .price-item-mainmenu {
+    padding-top: 5px;
+  }
+
+  .name-item-mainmenu {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
 /*[ Block3 ]
 ///////////////////////////////////////////////////////////
 */

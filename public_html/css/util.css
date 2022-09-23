@@ -309,6 +309,16 @@
   -o-flex-wrap: wrap;
   flex-wrap: wrap; }
 
+  .flex-b {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-align-items: flex-end;
+    align-items: flex-end;
+  }
+
 /* ------------------------------------ */
 
 /* ------------------------------------ */
@@ -455,6 +465,15 @@
   text-transform: uppercase;
   letter-spacing: 11px; }
 
+.tit10 {
+  font-family: Inkburrow;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.4;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 3px; }
+
 @media (max-width: 576px) {
   .tit2 {
     font-size: 38px; }
@@ -515,9 +534,9 @@
 .txt21 {
   font-family: Inkburrow;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 20px;
   color: #222222;
-  line-height: 1.4;
+  line-height: 1.0;
   text-transform: uppercase;
   letter-spacing: 2px; }
 
@@ -529,6 +548,14 @@
   line-height: 1.4;
   text-transform: uppercase;
   letter-spacing: 2px; }
+
+.txt22 {
+  font-family: Inkfree;
+  font-weight: 700;
+  font-size: 20px;
+  color: #333333;
+  line-height: 1.2;
+  text-transform: uppercase; }
 
 .txt23 {
   font-family: Inkfree;
@@ -599,9 +626,14 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 .size38 {
   max-width: 190px; }
 
-/*[ Background Color ]
+/*[ Background ]
 -----------------------------------------------------------
 */
+
+.bg3-pattern {
+	background-image: url(../images/icons/pattern3.png);
+  	background-repeat: repeat;
+}
 
 .bg2 {
   background-color: #111111; }

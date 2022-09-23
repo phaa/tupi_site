@@ -23,10 +23,10 @@ Cardápio
         <div class="row justify-content-md-center contact-footer m-b-30">
             <div class="col-sm-12 text-center">
                 <span class="tit2">Pratos</span>
-                <h1 class="txt1 ">Mais Pedidos</h1>
+                <h1 class="txt1">Mais Pedidos</h1>
             </div>
             <div style="margin: auto 0" class="col-sm-12 text-center">
-                <span class="txt21">
+                <span class="txt21b">
                     O Tupi oferece uma ampla variedade de pratos da culinária regional.<br>
                 </span>
             </div>
@@ -228,6 +228,204 @@ Cardápio
         <div class="txt23 p-b-30">
             <p class="text-center">(Clique nas imagens para ampliar)</p>
             <!--p class="text-center">Caso necessite conferir preços do cardápio, favor entrar em contato pelo telefone ou Whatsapp.</p-->
+        </div>
+    </div>
+</section>
+
+
+<!-- Complete Tupi Menu -->
+<section class="section-lunch bg1-pattern p-t-60">
+    <div class="container">
+        <div class="row justify-content-md-center m-b-50">
+            <div class="col text-center">
+                <span class="tit2 p-l-15 p-r-15">Veja agora</span>
+                <h1 class="txt1 contact-footer">Todos os pratos</h1>
+            </div>
+        </div>
+
+        <div class="row">
+
+			<!-- Primeira Coluna -->
+            <div class="col-md-10 col-lg-6 p-r-35 p-r-15-lg m-l-r-auto">
+                <div class="wrap-item-mainmenu p-b-22">
+
+                    <div class="wrapper-mainmenu">
+                        <h3 class="tit-mainmenu tit10 p-b-25">Bebidas</h3> 
+                        @foreach ($bebidas as $bebida)
+                        <div class="item-mainmenu m-b-36">
+                            <div class="flex-w flex-b m-b-3">
+                                <a class="name-item-mainmenu txt21">{{ $bebida['name'] }}</a>
+                                <div class="line-item-mainmenu bg3-pattern"></div>
+                                <div class="price-item-mainmenu txt22">R${{ str_replace('.', ',', $bebida['price']) }}</div>
+                            </div>
+                            <span class="info-item-mainmenu txt23">{{ $bebida['description'] }}</span>
+                        </div>
+                        @endforeach
+                    </div>
+
+                    
+
+                    <div class="wrapper-mainmenu">
+                        <h3 class="tit-mainmenu tit10 p-b-25">Sucos</h3> 
+                        @foreach ($sucos as $suco)
+                        <div class="item-mainmenu m-b-36">
+                            <div class="flex-w flex-b m-b-3">
+                                <a class="name-item-mainmenu txt21">{{ $suco['name'] }}</a>
+                                <div class="line-item-mainmenu bg3-pattern"></div>
+                                <div class="price-item-mainmenu txt22">R${{ str_replace('.', ',', $suco['price']) }}</div>
+                            </div>
+                            <span class="info-item-mainmenu txt23">{{ $suco['description'] }}</span>
+                        </div>
+                        @endforeach
+                    </div>
+
+					
+
+                    <div class="wrapper-mainmenu">
+                        <h3 class="tit-mainmenu tit10 p-b-25">Sucos</h3> 
+                        @foreach ($sucos as $suco)
+                        <div class="item-mainmenu m-b-36">
+                            <div class="flex-w flex-b m-b-3">
+                                <a class="name-item-mainmenu txt21">{{ $suco['name'] }}</a>
+                                <div class="line-item-mainmenu bg3-pattern"></div>
+                                <div class="price-item-mainmenu txt22">R${{ str_replace('.', ',', $suco['price']) }}</div>
+                            </div>
+                            <span class="info-item-mainmenu txt23">{{ $suco['description'] }}</span>
+                        </div>
+                        @endforeach
+                    </div>
+
+					
+                    <div class="wrapper-mainmenu">
+                        <h3 class="tit-mainmenu tit10 p-b-25">Alcólicos</h3> 
+                        @foreach ($alcolicos as $alcolico)
+                        <div class="item-mainmenu m-b-36">
+                            <div class="flex-w flex-b m-b-3">
+                                <a class="name-item-mainmenu txt21">{{ $alcolico['name'] }}</a>
+                                <div class="line-item-mainmenu bg3-pattern"></div>
+                                <div class="price-item-mainmenu txt22">R${{ str_replace('.', ',', $alcolico['price']) }}</div>
+                            </div>
+                            <span class="info-item-mainmenu txt23">{{ $alcolico['description'] }}</span>
+                        </div>
+                        @endforeach
+                    </div>
+
+                    
+
+                    <div class="wrapper-mainmenu">
+                        <h3 class="tit-mainmenu tit10 p-b-25">Petiscos</h3> 
+                        @foreach ($petiscos as $petisco)
+                        <div class="item-mainmenu m-b-36">
+                            <div class="flex-w flex-b m-b-3">
+                                <a class="name-item-mainmenu txt21">{{ $petisco['name'] }}</a>
+                                <div class="line-item-mainmenu bg3-pattern"></div>
+                                <div class="price-item-mainmenu txt22">R${{ str_replace('.', ',', $petisco['price']) }}</div>
+                            </div>
+                            <span class="info-item-mainmenu txt23">{{ $petisco['description'] }}</span>
+                        </div>
+                        @endforeach
+                    </div>
+
+                    
+
+                    <div class="wrapper-mainmenu">
+                        <h3 class="tit-mainmenu tit10 p-b-25">Cafés</h3> 
+                        @foreach ($cafes as $cafe)
+                        <div class="item-mainmenu m-b-36">
+                            <div class="flex-w flex-b m-b-3">
+                                <a class="name-item-mainmenu txt21">{{ $cafe['name'] }}</a>
+                                <div class="line-item-mainmenu bg3-pattern"></div>
+                                <div class="price-item-mainmenu txt22">R${{ str_replace('.', ',', $cafe['price']) }}</div>
+                            </div>
+                            <span class="info-item-mainmenu txt23">{{ $cafe['description'] }}</span>
+                        </div>
+                        @endforeach
+                    </div>
+
+                    <h3 class="tit-mainmenu tit10 p-b-25">Sobremesas</h3> 
+					@foreach ($sobremesas as $sobremesa)
+                    <div class="item-mainmenu m-b-36">
+                        <div class="flex-w flex-b m-b-3">
+                            <a class="name-item-mainmenu txt21">{{ $sobremesa['name'] }}</a>
+                            <div class="line-item-mainmenu bg3-pattern"></div>
+                            <div class="price-item-mainmenu txt22">R${{ str_replace('.', ',', $sobremesa['price']) }}</div>
+                        </div>
+                        <span class="info-item-mainmenu txt23">{{ $sobremesa['description'] }}</span>
+                    </div>
+                    @endforeach
+                </div>
+            </div>
+
+            <!-- Segunda Coluna -->
+            <div class="col-md-10 col-lg-6 p-r-35 p-r-15-lg m-l-r-auto">
+                <div class="wrap-item-mainmenu p-b-22">
+                    
+
+                    <div class="wrapper-mainmenu">
+                        <h3 class="tit-mainmenu tit10 p-b-25">Carnes</h3> 
+                        @foreach ($carnes as $carne)
+                        <div class="item-mainmenu m-b-36">
+                            <div class="flex-w flex-b m-b-3">
+                                <a class="name-item-mainmenu txt21">{{ $carne['name'] }}</a>
+                                <div class="line-item-mainmenu bg3-pattern"></div>
+                                <div class="price-item-mainmenu txt22">R${{ str_replace('.', ',', $carne['price']) }}</div>
+                            </div>
+                            <span class="info-item-mainmenu txt23">{{ $carne['description'] }}</span>
+                        </div>
+                        @endforeach
+                    </div>
+
+                    
+
+                    <div class="wrapper-mainmenu">
+                        <h3 class="tit-mainmenu tit10 p-b-25">Peixes</h3> 
+                        @foreach ($peixes as $peixe)
+                        <div class="item-mainmenu m-b-36">
+                            <div class="flex-w flex-b m-b-3">
+                                <a class="name-item-mainmenu txt21">{{ $peixe['name'] }}</a>
+                                <div class="line-item-mainmenu bg3-pattern"></div>
+                                <div class="price-item-mainmenu txt22">R${{ str_replace('.', ',', $peixe['price']) }}</div>
+                            </div>
+                            <span class="info-item-mainmenu txt23">{{ $peixe['description'] }}</span>
+                        </div>
+                        @endforeach
+                    </div>
+
+                    
+
+                    <div class="wrapper-mainmenu">
+                        <h3 class="tit-mainmenu tit10 p-b-25">Camarões</h3> 
+                        @foreach ($camaroes as $camarao)
+                        <div class="item-mainmenu m-b-36">
+                            <div class="flex-w flex-b m-b-3">
+                                <a class="name-item-mainmenu txt21">{{ $camarao['name'] }}</a>
+                                <div class="line-item-mainmenu bg3-pattern"></div>
+                                <div class="price-item-mainmenu txt22">R${{ str_replace('.', ',', $camarao['price']) }}</div>
+                            </div>
+                            <span class="info-item-mainmenu txt23">{{ $camarao['description'] }}</span>
+                        </div>
+                        @endforeach
+                    </div>
+
+                    
+
+                    <div class="wrapper-mainmenu">
+                        <h3 class="tit-mainmenu tit10 p-b-25">Galinha</h3> 
+                        @foreach ($galinhas as $galinha)
+                        <div class="item-mainmenu m-b-36">
+                            <div class="flex-w flex-b m-b-3">
+                                <a class="name-item-mainmenu txt21">{{ $galinha['name'] }}</a>
+                                <div class="line-item-mainmenu bg3-pattern"></div>
+                                <div class="price-item-mainmenu txt22">R${{ str_replace('.', ',', $galinha['price']) }}</div>
+                            </div>
+                            <span class="info-item-mainmenu txt23">{{ $galinha['description'] }}</span>
+                        </div>
+                        @endforeach
+                    </div>
+                </div>
+
+            </div>
+
         </div>
     </div>
 </section>

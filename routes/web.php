@@ -16,10 +16,11 @@ Route::get('/', function ()
     return view('index');
 })->name('index');
 
+/*
 Route::get('/cardapio', function ()
 {
     return view('menu');
-})->name('menu');
+})->name('menu');*/
 
 Route::get('/cardapio', 'ShowMenu')->name('menu');
 

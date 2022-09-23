@@ -11,7 +11,7 @@
                 </div>
 
                 <div class="txt17 p-r-20 p-t-5 p-b-5">
-                    Restaurante Tupi &copy; 2018 Todos os direitos reservados | Feito com <i class="fa fa-heart"></i> por <a style="color: #43A906;font-size: 15px;font-weight: 400;">Restaurante Tupi</a> & <a style="color: #43A906;font-size: 15px;font-weight: 400;" href="https://colorlib.com" target="_blank">Colorlib</a>
+                    Restaurante Tupi &copy; <script>document.write(new Date().getFullYear())</script> Todos os direitos reservados | Feito com <i class="fa fa-heart"></i> por <a style="color: #43A906;font-size: 15px;font-weight: 400;">Restaurante Tupi</a>
                 </div>
             </div>
         </div>
